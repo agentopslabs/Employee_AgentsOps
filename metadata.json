@@ -1,0 +1,6 @@
+{
+  "name": "AgentOps Labs Onboarding Portal",
+  "description": "Employee onboarding and assessment management system for AgentOps Labs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

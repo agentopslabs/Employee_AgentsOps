@@ -1,0 +1,15 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+# db_agentops.json tracked for seed deploys
+push_to_git.cjs
+push_to_git.js
+push_vercel_updates.cjs
+venv/
+.git_corrupt/
+backend/python_packages/

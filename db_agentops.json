@@ -1,0 +1,4127 @@
+{
+  "users": [
+    {
+      "name": "G Venkat (HR Lead)",
+      "mobile": "+1 (555) 019-2834",
+      "status": "active",
+      "id": "admin-1",
+      "createdAt": "2026-06-12T09:19:46.377303Z",
+      "email": "agentopslabs@gmail.com",
+      "role": "admin"
+    },
+    {
+      "mobile": "7670845590",
+      "status": "active",
+      "dob": "1998-06-12",
+      "name": "Bharath",
+      "role": "employee",
+      "email": "bharathsathyasaijanga@gmail.com",
+      "createdAt": "2026-06-12T09:19:46.377303Z",
+      "id": "emp-1"
+    },
+    {
+      "email": "shriyachary0810@gmail.com",
+      "role": "employee",
+      "id": "emp-1781264493152",
+      "createdAt": "2026-06-12T11:41:33.152128Z",
+      "status": "active",
+      "mobile": "7981908645",
+      "name": "shriya"
+    },
+    {
+      "name": "Rajesh Kumar",
+      "dob": "2000-06-18",
+      "mobile": "9876543210",
+      "status": "active",
+      "id": "emp-2",
+      "createdAt": "2026-06-12T09:19:46.377303Z",
+      "email": "rajeshkumar@gmail.com",
+      "role": "employee"
+    },
+    {
+      "id": "emp-1781677214465",
+      "name": "bharath",
+      "email": "bharathjanga@gmail.com",
+      "mobile": "8686988402",
+      "role": "employee",
+      "status": "active",
+      "createdAt": "2026-06-17T06:20:14.465784Z"
+    },
+    {
+      "id": "emp-1781679186490",
+      "name": "shriya",
+      "email": "shriyachary08@gmail.com",
+      "mobile": "7981908645",
+      "role": "employee",
+      "status": "active",
+      "createdAt": "2026-06-17T06:53:06.490259Z"
+    },
+    {
+      "id": "emp-1781685362464",
+      "name": "shriya",
+      "email": "shriya08@gmail.com",
+      "mobile": "7207004321",
+      "role": "employee",
+      "status": "active",
+      "createdAt": "2026-06-17T08:36:02.464290Z"
+    },
+    {
+      "id": "emp-1781688625438",
+      "name": "shriya",
+      "email": "shriyachary@gmail.com",
+      "mobile": "7207003456",
+      "role": "employee",
+      "status": "active",
+      "createdAt": "2026-06-17T09:30:25.438800Z"
+    },
+    {
+      "id": "emp-1781691543246",
+      "name": "gopi",
+      "email": "gopikrishna@gmail.com",
+      "mobile": "9876543210",
+      "role": "employee",
+      "status": "active",
+      "createdAt": "2026-06-17T10:19:03.246028Z"
+    },
+    {
+      "id": "emp-1781699299532",
+      "name": "king",
+      "email": "king@gmail.com",
+      "mobile": "098765432",
+      "role": "employee",
+      "status": "active",
+      "createdAt": "2026-06-17T12:28:19.532763Z"
+    }
+  ],
+  "passwords": {
+    "admin-1": "Gvenkat@123",
+    "emp-1": "Bharath@767",
+    "emp-1781264493152": "Shriya@123",
+    "emp-2": "Rajesh@767",
+    "emp-1781676175369": "Password@123",
+    "emp-1781677214465": "Bharath@123",
+    "emp-1781679186490": "Shriya@21",
+    "emp-1781685362464": "Shriya@08",
+    "emp-1781688625438": "shriya@789",
+    "emp-1781691543246": "gopi@123",
+    "emp-1781699299532": "King@123"
+  },
+  "applications": [
+    {
+      "email": "bharathsathyasaijanga@gmail.com",
+      "percentageOrCgpa": "10 cgpa",
+      "submittedAt": "2026-06-26T11:39:55.233829Z",
+      "otherSkills": [
+        "Product Management",
+        "Team Leadership"
+      ],
+      "updatedAt": "2026-06-26T11:39:55.233829Z",
+      "highestQualification": "B.Tech in Computer Science",
+      "technicalSkills": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "python"
+      ],
+      "status": "submitted",
+      "collegeName": "Stanford University",
+      "gender": "Male",
+      "fullName": "Bharath",
+      "mobile": "7670845590",
+      "employeeId": "emp-1",
+      "yearOfPassing": "2024"
+    },
+    {
+      "gender": "Female",
+      "updatedAt": "2026-06-17T12:09:28.789579Z",
+      "fullName": "shriya",
+      "mobile": "7981908645",
+      "yearOfPassing": "2026",
+      "highestQualification": "bom",
+      "employeeId": "emp-1781264493152",
+      "email": "shriyachary0810@gmail.com",
+      "technicalSkills": [
+        "c++"
+      ],
+      "otherSkills": [
+        "leadership"
+      ],
+      "status": "submitted",
+      "collegeName": "loyola",
+      "percentageOrCgpa": "9.3",
+      "submittedAt": "2026-06-17T12:09:28.789579Z"
+    },
+    {
+      "employeeId": "emp-1781677214465",
+      "fullName": "bharath",
+      "email": "bharathjanga@gmail.com",
+      "mobile": "8686988402",
+      "gender": "Male",
+      "highestQualification": "btech",
+      "collegeName": "GU",
+      "yearOfPassing": "2026",
+      "technicalSkills": [
+        "c",
+        "c++"
+      ],
+      "otherSkills": [
+        "leadership skills"
+      ],
+      "status": "submitted",
+      "updatedAt": "2026-06-17T06:22:41.098177Z",
+      "percentageOrCgpa": "9%",
+      "submittedAt": "2026-06-17T06:22:41.098177Z"
+    },
+    {
+      "employeeId": "emp-1781679186490",
+      "fullName": "shriya",
+      "email": "shriyachary08@gmail.com",
+      "mobile": "7981908645",
+      "gender": "Female",
+      "highestQualification": "b.com",
+      "collegeName": "loyola",
+      "yearOfPassing": "2026",
+      "technicalSkills": [
+        "c",
+        "c++"
+      ],
+      "otherSkills": [
+        "full stack"
+      ],
+      "status": "submitted",
+      "updatedAt": "2026-06-17T07:14:30.270104Z",
+      "percentageOrCgpa": "9.3%",
+      "submittedAt": "2026-06-17T07:14:30.270104Z"
+    },
+    {
+      "employeeId": "emp-1781685362464",
+      "fullName": "shriya",
+      "email": "shriya08@gmail.com",
+      "mobile": "7207004321",
+      "gender": "Female",
+      "highestQualification": "bom",
+      "collegeName": "loyola",
+      "yearOfPassing": "2026",
+      "technicalSkills": [
+        "c",
+        "c++"
+      ],
+      "otherSkills": [
+        "leadership"
+      ],
+      "status": "submitted",
+      "updatedAt": "2026-06-17T08:39:31.388407Z",
+      "percentageOrCgpa": "9.3",
+      "submittedAt": "2026-06-17T08:39:31.388407Z"
+    },
+    {
+      "employeeId": "emp-1781688625438",
+      "fullName": "shriya",
+      "email": "shriyachary@gmail.com",
+      "mobile": "7207003456",
+      "gender": "Female",
+      "highestQualification": "bcom",
+      "collegeName": "loyola",
+      "yearOfPassing": "2026",
+      "technicalSkills": [
+        "c"
+      ],
+      "otherSkills": [
+        "leadership"
+      ],
+      "status": "submitted",
+      "updatedAt": "2026-06-17T09:32:55.900523Z",
+      "percentageOrCgpa": "9.3",
+      "submittedAt": "2026-06-17T09:32:55.900523Z"
+    },
+    {
+      "employeeId": "emp-1781691543246",
+      "fullName": "gopi",
+      "email": "gopikrishna@gmail.com",
+      "mobile": "9876543210",
+      "gender": "Male",
+      "highestQualification": "btech",
+      "collegeName": "CE",
+      "yearOfPassing": "2019",
+      "technicalSkills": [
+        "linux",
+        "aws"
+      ],
+      "otherSkills": [
+        "leadership"
+      ],
+      "status": "submitted",
+      "updatedAt": "2026-06-17T10:21:33.439562Z",
+      "percentageOrCgpa": "70",
+      "submittedAt": "2026-06-17T10:21:33.439562Z"
+    },
+    {
+      "employeeId": "emp-1781699299532",
+      "fullName": "king",
+      "email": "king@gmail.com",
+      "mobile": "098765432",
+      "gender": "Female",
+      "highestQualification": "xbdf",
+      "collegeName": "dfht",
+      "yearOfPassing": "2013",
+      "technicalSkills": [
+        "linux"
+      ],
+      "otherSkills": [],
+      "status": "submitted",
+      "updatedAt": "2026-06-17T12:30:05.148445Z",
+      "percentageOrCgpa": "9",
+      "submittedAt": "2026-06-17T12:30:05.148445Z"
+    }
+  ],
+  "documents": [],
+  "tests": [
+    {
+      "questions": [
+        {
+          "id": "q-1781256803586-1",
+          "text": "Sample Single Match Question?",
+          "moduleName": "General",
+          "type": "single_choice",
+          "options": [
+            "Option A",
+            "Option B",
+            "Option C",
+            "Option D"
+          ],
+          "correctAnswers": [
+            0
+          ]
+        },
+        {
+          "id": "q-1781256813835-92",
+          "correctAnswers": [
+            0
+          ],
+          "options": [
+            "True",
+            "False"
+          ],
+          "text": "New Option Question Details?",
+          "type": "single_choice",
+          "moduleName": "General"
+        },
+        {
+          "id": "q-1781256825153-70",
+          "moduleName": "sub",
+          "text": "New Option Question Details?",
+          "type": "single_choice",
+          "correctAnswers": [
+            0
+          ],
+          "options": [
+            "True",
+            "False"
+          ]
+        },
+        {
+          "id": "q-1781256825407-56",
+          "moduleName": "sub",
+          "text": "New Option Question Details?",
+          "type": "single_choice",
+          "correctAnswers": [
+            0
+          ],
+          "options": [
+            "True",
+            "False"
+          ]
+        },
+        {
+          "correctAnswers": [
+            0
+          ],
+          "options": [
+            "True",
+            "False"
+          ],
+          "type": "single_choice",
+          "moduleName": "sub",
+          "text": "New Option Question Details?",
+          "id": "q-1781256825649-93"
+        },
+        {
+          "id": "q-1781256825898-29",
+          "correctAnswers": [
+            0
+          ],
+          "options": [
+            "True",
+            "False"
+          ],
+          "type": "single_choice",
+          "moduleName": "ab",
+          "text": "New Option Question Details?"
+        },
+        {
+          "id": "q-1781256845750-97",
+          "text": "New Option Question Details?",
+          "moduleName": "ab",
+          "type": "single_choice",
+          "options": [
+            "True",
+            "False"
+          ],
+          "correctAnswers": [
+            0
+          ]
+        },
+        {
+          "id": "q-1781256845985-74",
+          "text": "New Option Question Details?",
+          "moduleName": "ab",
+          "type": "single_choice",
+          "correctAnswers": [
+            0
+          ],
+          "options": [
+            "True",
+            "False"
+          ]
+        }
+      ],
+      "createdAt": "2026-06-12T09:34:25.336010Z",
+      "id": "test-1781256865335",
+      "passingMarks": 70,
+      "isPublished": true,
+      "duration": 15,
+      "name": "test"
+    },
+    {
+      "name": "Enterprise Security & Compliance Quiz",
+      "isPublished": true,
+      "duration": 10,
+      "createdAt": "2026-06-12T09:19:46.377303Z",
+      "passingMarks": 100,
+      "id": "test-system-safety",
+      "questions": [
+        {
+          "text": "Is it permissible to share temporary JWT tokens or passwords with fellow team members via Slack?",
+          "type": "true_false",
+          "correctAnswers": [
+            1
+          ],
+          "options": [
+            "True (Yes, provided it's an internal private channel)",
+            "False (Never permissible under any compliance circumstance)"
+          ],
+          "id": "sec-q1"
+        },
+        {
+          "type": "single_choice",
+          "text": "What protocol must be used for transferring all external customer files?",
+          "correctAnswers": [
+            2
+          ],
+          "options": [
+            "Unencrypted HTTP file upload portal",
+            "FTP plain transfer on standard port 21",
+            "Secure HTTPS / SFTP channels with multi-factor authentication",
+            "Physical USB storage mailed via DHL couriers"
+          ],
+          "id": "sec-q2"
+        }
+      ]
+    }
+  ],
+  "assignedTests": [
+    {
+      "startedAt": "2026-06-12T09:36:09.952981Z",
+      "employeeId": "emp-1",
+      "status": "not_started",
+      "remainingTime": 864,
+      "id": "assign-1781256877473-175",
+      "testId": "test-1781256865335",
+      "answers": {},
+      "testName": "test"
+    },
+    {
+      "id": "assign-1781689463713-6217",
+      "testId": "test-system-safety",
+      "testName": "Enterprise Security & Compliance Quiz",
+      "employeeId": "emp-1781264493152",
+      "status": "completed",
+      "score": 50,
+      "totalQuestions": 2,
+      "passingMarks": 100,
+      "passed": false,
+      "answers": {
+        "sec-q1": [
+          0
+        ],
+        "sec-q2": [
+          2
+        ]
+      },
+      "remainingTime": 554,
+      "startedAt": "2026-06-17T10:15:46.832839Z",
+      "completedAt": "2026-06-17T10:16:22.882010Z"
+    },
+    {
+      "id": "assign-1781691574796-5472",
+      "testId": "test-system-safety",
+      "testName": "Enterprise Security & Compliance Quiz",
+      "employeeId": "emp-1781691543246",
+      "status": "completed",
+      "score": 0,
+      "totalQuestions": 2,
+      "passingMarks": 100,
+      "passed": false,
+      "answers": {},
+      "remainingTime": 593,
+      "startedAt": "2026-06-17T10:22:37.794343Z",
+      "completedAt": "2026-06-17T10:22:51.376233Z",
+      "assignedAt": "2026-06-17T10:19:34.796774Z"
+    },
+    {
+      "id": "assign-1781691799776-225",
+      "testId": "test-1781256865335",
+      "testName": "test",
+      "employeeId": "emp-1781691543246",
+      "status": "completed",
+      "assignedAt": "2026-06-17T10:23:19.776548Z",
+      "startedAt": "2026-06-17T10:23:30.143204Z",
+      "remainingTime": 889,
+      "answers": {
+        "q-1781256803586-1": [
+          0
+        ],
+        "q-1781256813835-92": [
+          1
+        ]
+      },
+      "score": 12,
+      "totalQuestions": 8,
+      "passingMarks": 70,
+      "passed": false,
+      "completedAt": "2026-06-17T10:23:46.388036Z"
+    },
+    {
+      "id": "assign-1781691877457-936",
+      "testId": "test-1781256865335",
+      "testName": "test",
+      "employeeId": "emp-1781691543246",
+      "status": "not_started",
+      "assignedAt": "2026-06-17T10:24:37.457432Z"
+    },
+    {
+      "id": "assign-1781692176802-443",
+      "testId": "test-system-safety",
+      "testName": "Enterprise Security & Compliance Quiz",
+      "employeeId": "emp-1781264493152",
+      "status": "completed",
+      "assignedAt": "2026-06-17T10:29:36.803920Z",
+      "startedAt": "2026-06-17T10:29:59.491126Z",
+      "remainingTime": 590,
+      "answers": {
+        "sec-q1": [
+          0
+        ],
+        "sec-q2": [
+          1
+        ]
+      },
+      "score": 0,
+      "totalQuestions": 2,
+      "passingMarks": 100,
+      "passed": false,
+      "completedAt": "2026-06-17T10:30:13.325332Z"
+    },
+    {
+      "id": "assign-1781692182780-5991",
+      "testId": "test-1781256865335",
+      "testName": "test",
+      "employeeId": "emp-1781264493152",
+      "status": "completed",
+      "score": 50,
+      "totalQuestions": 8,
+      "passingMarks": 70,
+      "passed": false,
+      "answers": {
+        "q-1781256803586-1": [
+          0
+        ],
+        "q-1781256813835-92": [
+          1
+        ],
+        "q-1781256825153-70": [
+          0
+        ],
+        "q-1781256825407-56": [
+          1
+        ],
+        "q-1781256825649-93": [
+          0
+        ],
+        "q-1781256825898-29": [
+          1
+        ],
+        "q-1781256845750-97": [
+          0
+        ],
+        "q-1781256845985-74": [
+          1
+        ]
+      },
+      "remainingTime": 872,
+      "startedAt": "2026-06-17T10:30:26.477161Z",
+      "completedAt": "2026-06-17T10:30:58.238327Z",
+      "assignedAt": "2026-06-17T10:29:42.780816Z"
+    },
+    {
+      "id": "assign-1781692602763-112",
+      "testId": "test-system-safety",
+      "testName": "Enterprise Security & Compliance Quiz",
+      "employeeId": "emp-1781264493152",
+      "status": "completed",
+      "assignedAt": "2026-06-17T10:36:42.763727Z",
+      "startedAt": "2026-06-17T10:37:51.895769Z",
+      "remainingTime": 593,
+      "answers": {
+        "sec-q1": [
+          0
+        ]
+      },
+      "score": 0,
+      "totalQuestions": 2,
+      "passingMarks": 100,
+      "passed": false,
+      "completedAt": "2026-06-17T10:38:04.810542Z"
+    },
+    {
+      "id": "assign-1781692705982-192",
+      "testId": "test-system-safety",
+      "testName": "Enterprise Security & Compliance Quiz",
+      "employeeId": "emp-1781264493152",
+      "status": "completed",
+      "assignedAt": "2026-06-17T10:38:25.982398Z",
+      "startedAt": "2026-06-17T10:39:55.425715Z",
+      "remainingTime": 593,
+      "answers": {
+        "sec-q1": [
+          1
+        ],
+        "sec-q2": [
+          0
+        ]
+      },
+      "score": 50,
+      "totalQuestions": 2,
+      "passingMarks": 100,
+      "passed": false,
+      "completedAt": "2026-06-17T10:40:06.394261Z"
+    },
+    {
+      "id": "assign-1781692827889-850",
+      "testId": "test-system-safety",
+      "testName": "Enterprise Security & Compliance Quiz",
+      "employeeId": "emp-1781264493152",
+      "status": "completed",
+      "assignedAt": "2026-06-17T10:40:27.889819Z",
+      "startedAt": "2026-06-17T10:40:50.125086Z",
+      "remainingTime": 593,
+      "answers": {
+        "sec-q1": [
+          1
+        ],
+        "sec-q2": [
+          3
+        ]
+      },
+      "score": 50,
+      "totalQuestions": 2,
+      "passingMarks": 100,
+      "passed": false,
+      "completedAt": "2026-06-17T10:41:01.258218Z"
+    },
+    {
+      "id": "assign-1781692888927-792",
+      "testId": "test-system-safety",
+      "testName": "Enterprise Security & Compliance Quiz",
+      "employeeId": "emp-1781264493152",
+      "status": "completed",
+      "assignedAt": "2026-06-17T10:41:28.928357Z",
+      "startedAt": "2026-06-17T10:41:39.535468Z",
+      "remainingTime": 593,
+      "answers": {
+        "sec-q1": [
+          0
+        ],
+        "sec-q2": [
+          3
+        ]
+      },
+      "score": 0,
+      "totalQuestions": 2,
+      "passingMarks": 100,
+      "passed": false,
+      "completedAt": "2026-06-17T10:41:49.991371Z"
+    },
+    {
+      "id": "assign-1781693128443-978",
+      "testId": "test-system-safety",
+      "testName": "Enterprise Security & Compliance Quiz",
+      "employeeId": "emp-1781264493152",
+      "status": "completed",
+      "assignedAt": "2026-06-17T10:45:28.444131Z",
+      "startedAt": "2026-06-17T10:47:00.825932Z",
+      "remainingTime": 549,
+      "answers": {
+        "sec-q1": [
+          1
+        ],
+        "sec-q2": [
+          2
+        ]
+      },
+      "score": 100,
+      "totalQuestions": 2,
+      "passingMarks": 100,
+      "passed": true,
+      "completedAt": "2026-06-17T10:47:55.793371Z"
+    },
+    {
+      "id": "assign-1781693406886-612",
+      "testId": "test-system-safety",
+      "testName": "Enterprise Security & Compliance Quiz",
+      "employeeId": "emp-1781264493152",
+      "status": "completed",
+      "assignedAt": "2026-06-17T10:50:06.886402Z",
+      "startedAt": "2026-06-17T10:50:30.015445Z",
+      "remainingTime": 593,
+      "answers": {
+        "sec-q1": [
+          0
+        ],
+        "sec-q2": [
+          2
+        ]
+      },
+      "score": 50,
+      "totalQuestions": 2,
+      "passingMarks": 100,
+      "passed": false,
+      "completedAt": "2026-06-17T10:50:42.193217Z"
+    },
+    {
+      "id": "assign-1781693486885-544",
+      "testId": "test-system-safety",
+      "testName": "Enterprise Security & Compliance Quiz",
+      "employeeId": "emp-1781264493152",
+      "status": "completed",
+      "assignedAt": "2026-06-17T10:51:26.885446Z",
+      "startedAt": "2026-06-17T10:51:40.528148Z",
+      "remainingTime": 569,
+      "answers": {
+        "sec-q1": [
+          1
+        ],
+        "sec-q2": [
+          2
+        ]
+      },
+      "score": 100,
+      "totalQuestions": 2,
+      "passingMarks": 100,
+      "passed": true,
+      "completedAt": "2026-06-17T10:52:14.769659Z"
+    },
+    {
+      "id": "assign-1781699299536-2407",
+      "testId": "test-1781256865335",
+      "testName": "test",
+      "employeeId": "emp-1781699299532",
+      "status": "not_started",
+      "score": null,
+      "totalQuestions": 8,
+      "passingMarks": 70,
+      "passed": null,
+      "answers": {},
+      "remainingTime": 896,
+      "startedAt": "2026-06-18T04:54:27.975154Z",
+      "completedAt": null,
+      "assignedAt": "2026-06-17T12:28:19.536642Z",
+      "isDefaultOnboardingTest": true
+    },
+    {
+      "id": "assign-1781759571782-6440",
+      "testId": "test-1781256865335",
+      "testName": "test",
+      "employeeId": "emp-1781264493152",
+      "status": "not_started",
+      "score": null,
+      "totalQuestions": 8,
+      "passingMarks": 70,
+      "passed": null,
+      "answers": {},
+      "remainingTime": 900,
+      "startedAt": null,
+      "completedAt": null,
+      "assignedAt": "2026-06-18T05:12:51.782986Z",
+      "isDefaultOnboardingTest": true
+    },
+    {
+      "id": "assign-1782473618508-4693",
+      "testId": "test-1781256865335",
+      "testName": "test",
+      "employeeId": "emp-1",
+      "status": "not_started",
+      "score": null,
+      "totalQuestions": 8,
+      "passingMarks": 70,
+      "passed": null,
+      "answers": {},
+      "remainingTime": 889,
+      "startedAt": "2026-06-26T11:33:48.925468Z",
+      "completedAt": null,
+      "assignedAt": "2026-06-26T11:33:38.520769Z",
+      "isDefaultOnboardingTest": true
+    }
+  ],
+  "checklists": [
+    {
+      "updatedAt": "2026-06-26T11:39:55.233829Z",
+      "id": "chk-1",
+      "text": "Application Submitted",
+      "isCompleted": true,
+      "employeeId": "emp-1",
+      "category": "application"
+    },
+    {
+      "updatedAt": "2026-06-12T09:19:46.377303Z",
+      "id": "chk-10",
+      "employeeId": "emp-1",
+      "category": "approval",
+      "isCompleted": false,
+      "text": "HR Review Completed"
+    },
+    {
+      "updatedAt": "2026-06-12T09:19:46.377303Z",
+      "id": "chk-11",
+      "employeeId": "emp-1",
+      "category": "approval",
+      "isCompleted": false,
+      "text": "Final Approval Completed"
+    },
+    {
+      "updatedAt": "2026-06-17T12:09:28.789579Z",
+      "id": "chk-1781264493152-0",
+      "employeeId": "emp-1781264493152",
+      "category": "application",
+      "isCompleted": true,
+      "text": "Application Submitted"
+    },
+    {
+      "text": "Resume Uploaded",
+      "isCompleted": false,
+      "category": "documents",
+      "employeeId": "emp-1781264493152",
+      "updatedAt": "2026-06-12T11:41:33.152149Z",
+      "id": "chk-1781264493152-1"
+    },
+    {
+      "employeeId": "emp-1781264493152",
+      "category": "approval",
+      "isCompleted": false,
+      "text": "Final Approval Completed",
+      "updatedAt": "2026-06-12T11:41:33.152149Z",
+      "id": "chk-1781264493152-10"
+    },
+    {
+      "id": "chk-1781264493152-2",
+      "updatedAt": "2026-06-12T11:41:33.152149Z",
+      "text": "Aadhaar Uploaded",
+      "isCompleted": false,
+      "category": "documents",
+      "employeeId": "emp-1781264493152"
+    },
+    {
+      "text": "PAN Uploaded",
+      "isCompleted": false,
+      "category": "documents",
+      "employeeId": "emp-1781264493152",
+      "id": "chk-1781264493152-3",
+      "updatedAt": "2026-06-12T11:41:33.152149Z"
+    },
+    {
+      "id": "chk-1781264493152-4",
+      "updatedAt": "2026-06-12T11:41:33.152149Z",
+      "employeeId": "emp-1781264493152",
+      "category": "documents",
+      "isCompleted": false,
+      "text": "Passport Photo Uploaded"
+    },
+    {
+      "updatedAt": "2026-06-12T11:41:33.152149Z",
+      "id": "chk-1781264493152-5",
+      "employeeId": "emp-1781264493152",
+      "category": "documents",
+      "isCompleted": false,
+      "text": "Educational Certificates Uploaded"
+    },
+    {
+      "id": "chk-1781264493152-6",
+      "updatedAt": "2026-06-18T05:12:51.784272Z",
+      "employeeId": "emp-1781264493152",
+      "category": "assessments",
+      "isCompleted": true,
+      "text": "Test Assigned"
+    },
+    {
+      "employeeId": "emp-1781264493152",
+      "category": "assessments",
+      "isCompleted": true,
+      "text": "Test Completed",
+      "id": "chk-1781264493152-7",
+      "updatedAt": "2026-06-17T10:52:14.770806Z"
+    },
+    {
+      "updatedAt": "2026-06-17T10:52:14.770806Z",
+      "id": "chk-1781264493152-8",
+      "text": "Passed Assessment",
+      "isCompleted": true,
+      "category": "assessments",
+      "employeeId": "emp-1781264493152"
+    },
+    {
+      "text": "HR Review Completed",
+      "isCompleted": false,
+      "category": "approval",
+      "employeeId": "emp-1781264493152",
+      "updatedAt": "2026-06-12T11:41:33.152149Z",
+      "id": "chk-1781264493152-9"
+    },
+    {
+      "id": "chk-2",
+      "updatedAt": "2026-06-12T09:19:46.377303Z",
+      "employeeId": "emp-1",
+      "category": "documents",
+      "isCompleted": false,
+      "text": "Resume Uploaded"
+    },
+    {
+      "text": "Aadhaar Uploaded",
+      "isCompleted": false,
+      "category": "documents",
+      "employeeId": "emp-1",
+      "updatedAt": "2026-06-12T09:19:46.377303Z",
+      "id": "chk-3"
+    },
+    {
+      "text": "PAN Uploaded",
+      "isCompleted": false,
+      "category": "documents",
+      "employeeId": "emp-1",
+      "id": "chk-4",
+      "updatedAt": "2026-06-12T09:19:46.377303Z"
+    },
+    {
+      "id": "chk-5",
+      "updatedAt": "2026-06-12T09:19:46.377303Z",
+      "employeeId": "emp-1",
+      "category": "documents",
+      "isCompleted": false,
+      "text": "Passport Photo Uploaded"
+    },
+    {
+      "employeeId": "emp-1",
+      "category": "documents",
+      "isCompleted": false,
+      "text": "Educational Certificates Uploaded",
+      "updatedAt": "2026-06-12T09:19:46.377303Z",
+      "id": "chk-6"
+    },
+    {
+      "id": "chk-7",
+      "updatedAt": "2026-06-26T11:33:38.535408Z",
+      "text": "Test Assigned",
+      "isCompleted": true,
+      "employeeId": "emp-1",
+      "category": "assessments"
+    },
+    {
+      "text": "Test Completed",
+      "isCompleted": false,
+      "category": "assessments",
+      "employeeId": "emp-1",
+      "updatedAt": "2026-06-12T09:19:46.377303Z",
+      "id": "chk-8"
+    },
+    {
+      "id": "chk-9",
+      "updatedAt": "2026-06-12T09:19:46.377303Z",
+      "employeeId": "emp-1",
+      "category": "assessments",
+      "isCompleted": false,
+      "text": "Passed Assessment"
+    },
+    {
+      "id": "chk-1781677214465-0",
+      "employeeId": "emp-1781677214465",
+      "category": "application",
+      "text": "Application Submitted",
+      "isCompleted": true,
+      "updatedAt": "2026-06-17T06:22:41.098177Z"
+    },
+    {
+      "id": "chk-1781677214465-1",
+      "employeeId": "emp-1781677214465",
+      "category": "documents",
+      "text": "Resume Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T06:20:14.465784Z"
+    },
+    {
+      "id": "chk-1781677214465-2",
+      "employeeId": "emp-1781677214465",
+      "category": "documents",
+      "text": "Aadhaar Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T06:20:14.465784Z"
+    },
+    {
+      "id": "chk-1781677214465-3",
+      "employeeId": "emp-1781677214465",
+      "category": "documents",
+      "text": "PAN Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T06:20:14.465784Z"
+    },
+    {
+      "id": "chk-1781677214465-4",
+      "employeeId": "emp-1781677214465",
+      "category": "documents",
+      "text": "Passport Photo Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T06:20:14.465784Z"
+    },
+    {
+      "id": "chk-1781677214465-5",
+      "employeeId": "emp-1781677214465",
+      "category": "documents",
+      "text": "Educational Certificates Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T06:20:14.465784Z"
+    },
+    {
+      "id": "chk-1781677214465-6",
+      "employeeId": "emp-1781677214465",
+      "category": "assessments",
+      "text": "Test Assigned",
+      "isCompleted": true,
+      "updatedAt": "2026-06-17T06:20:14.467795Z"
+    },
+    {
+      "id": "chk-1781677214465-7",
+      "employeeId": "emp-1781677214465",
+      "category": "assessments",
+      "text": "Test Completed",
+      "isCompleted": true,
+      "updatedAt": "2026-06-17T06:23:18.885022Z"
+    },
+    {
+      "id": "chk-1781677214465-8",
+      "employeeId": "emp-1781677214465",
+      "category": "assessments",
+      "text": "Passed Assessment",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T06:20:14.465784Z"
+    },
+    {
+      "id": "chk-1781677214465-9",
+      "employeeId": "emp-1781677214465",
+      "category": "approval",
+      "text": "HR Review Completed",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T06:20:14.465784Z"
+    },
+    {
+      "id": "chk-1781677214465-10",
+      "employeeId": "emp-1781677214465",
+      "category": "approval",
+      "text": "Final Approval Completed",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T06:20:14.465784Z"
+    },
+    {
+      "id": "chk-1781679186490-0",
+      "employeeId": "emp-1781679186490",
+      "category": "application",
+      "text": "Application Submitted",
+      "isCompleted": true,
+      "updatedAt": "2026-06-17T07:14:30.270104Z"
+    },
+    {
+      "id": "chk-1781679186490-1",
+      "employeeId": "emp-1781679186490",
+      "category": "documents",
+      "text": "Resume Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T06:53:06.490259Z"
+    },
+    {
+      "id": "chk-1781679186490-2",
+      "employeeId": "emp-1781679186490",
+      "category": "documents",
+      "text": "Aadhaar Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T06:53:06.490259Z"
+    },
+    {
+      "id": "chk-1781679186490-3",
+      "employeeId": "emp-1781679186490",
+      "category": "documents",
+      "text": "PAN Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T06:53:06.490259Z"
+    },
+    {
+      "id": "chk-1781679186490-4",
+      "employeeId": "emp-1781679186490",
+      "category": "documents",
+      "text": "Passport Photo Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T06:53:06.490259Z"
+    },
+    {
+      "id": "chk-1781679186490-5",
+      "employeeId": "emp-1781679186490",
+      "category": "documents",
+      "text": "Educational Certificates Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T06:53:06.490259Z"
+    },
+    {
+      "id": "chk-1781679186490-6",
+      "employeeId": "emp-1781679186490",
+      "category": "assessments",
+      "text": "Test Assigned",
+      "isCompleted": true,
+      "updatedAt": "2026-06-17T08:35:13.730112Z"
+    },
+    {
+      "id": "chk-1781679186490-7",
+      "employeeId": "emp-1781679186490",
+      "category": "assessments",
+      "text": "Test Completed",
+      "isCompleted": true,
+      "updatedAt": "2026-06-17T08:32:47.394416Z"
+    },
+    {
+      "id": "chk-1781679186490-8",
+      "employeeId": "emp-1781679186490",
+      "category": "assessments",
+      "text": "Passed Assessment",
+      "isCompleted": true,
+      "updatedAt": "2026-06-17T08:32:47.394416Z"
+    },
+    {
+      "id": "chk-1781679186490-9",
+      "employeeId": "emp-1781679186490",
+      "category": "approval",
+      "text": "HR Review Completed",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T06:53:06.490259Z"
+    },
+    {
+      "id": "chk-1781679186490-10",
+      "employeeId": "emp-1781679186490",
+      "category": "approval",
+      "text": "Final Approval Completed",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T06:53:06.490259Z"
+    },
+    {
+      "id": "chk-1781685362464-0",
+      "employeeId": "emp-1781685362464",
+      "category": "application",
+      "text": "Application Submitted",
+      "isCompleted": true,
+      "updatedAt": "2026-06-17T08:39:31.388407Z"
+    },
+    {
+      "id": "chk-1781685362465-1",
+      "employeeId": "emp-1781685362464",
+      "category": "documents",
+      "text": "Resume Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T08:36:02.464290Z"
+    },
+    {
+      "id": "chk-1781685362465-2",
+      "employeeId": "emp-1781685362464",
+      "category": "documents",
+      "text": "Aadhaar Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T08:36:02.464290Z"
+    },
+    {
+      "id": "chk-1781685362465-3",
+      "employeeId": "emp-1781685362464",
+      "category": "documents",
+      "text": "PAN Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T08:36:02.464290Z"
+    },
+    {
+      "id": "chk-1781685362465-4",
+      "employeeId": "emp-1781685362464",
+      "category": "documents",
+      "text": "Passport Photo Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T08:36:02.464290Z"
+    },
+    {
+      "id": "chk-1781685362465-5",
+      "employeeId": "emp-1781685362464",
+      "category": "documents",
+      "text": "Educational Certificates Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T08:36:02.464290Z"
+    },
+    {
+      "id": "chk-1781685362465-6",
+      "employeeId": "emp-1781685362464",
+      "category": "assessments",
+      "text": "Test Assigned",
+      "isCompleted": true,
+      "updatedAt": "2026-06-17T08:36:02.466840Z"
+    },
+    {
+      "id": "chk-1781685362465-7",
+      "employeeId": "emp-1781685362464",
+      "category": "assessments",
+      "text": "Test Completed",
+      "isCompleted": true,
+      "updatedAt": "2026-06-17T08:47:29.783779Z"
+    },
+    {
+      "id": "chk-1781685362465-8",
+      "employeeId": "emp-1781685362464",
+      "category": "assessments",
+      "text": "Passed Assessment",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T08:36:02.464290Z"
+    },
+    {
+      "id": "chk-1781685362465-9",
+      "employeeId": "emp-1781685362464",
+      "category": "approval",
+      "text": "HR Review Completed",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T08:36:02.464290Z"
+    },
+    {
+      "id": "chk-1781685362465-10",
+      "employeeId": "emp-1781685362464",
+      "category": "approval",
+      "text": "Final Approval Completed",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T08:36:02.464290Z"
+    },
+    {
+      "id": "chk-1781688625438-0",
+      "employeeId": "emp-1781688625438",
+      "category": "application",
+      "text": "Application Submitted",
+      "isCompleted": true,
+      "updatedAt": "2026-06-17T09:32:55.900523Z"
+    },
+    {
+      "id": "chk-1781688625438-1",
+      "employeeId": "emp-1781688625438",
+      "category": "documents",
+      "text": "Resume Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T09:30:25.438800Z"
+    },
+    {
+      "id": "chk-1781688625438-2",
+      "employeeId": "emp-1781688625438",
+      "category": "documents",
+      "text": "Aadhaar Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T09:30:25.438800Z"
+    },
+    {
+      "id": "chk-1781688625438-3",
+      "employeeId": "emp-1781688625438",
+      "category": "documents",
+      "text": "PAN Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T09:30:25.438800Z"
+    },
+    {
+      "id": "chk-1781688625438-4",
+      "employeeId": "emp-1781688625438",
+      "category": "documents",
+      "text": "Passport Photo Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T09:30:25.438800Z"
+    },
+    {
+      "id": "chk-1781688625438-5",
+      "employeeId": "emp-1781688625438",
+      "category": "documents",
+      "text": "Educational Certificates Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T09:30:25.438800Z"
+    },
+    {
+      "id": "chk-1781688625438-6",
+      "employeeId": "emp-1781688625438",
+      "category": "assessments",
+      "text": "Test Assigned",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T09:30:25.438800Z"
+    },
+    {
+      "id": "chk-1781688625438-7",
+      "employeeId": "emp-1781688625438",
+      "category": "assessments",
+      "text": "Test Completed",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T09:30:25.438800Z"
+    },
+    {
+      "id": "chk-1781688625438-8",
+      "employeeId": "emp-1781688625438",
+      "category": "assessments",
+      "text": "Passed Assessment",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T09:30:25.438800Z"
+    },
+    {
+      "id": "chk-1781688625438-9",
+      "employeeId": "emp-1781688625438",
+      "category": "approval",
+      "text": "HR Review Completed",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T09:30:25.438800Z"
+    },
+    {
+      "id": "chk-1781688625438-10",
+      "employeeId": "emp-1781688625438",
+      "category": "approval",
+      "text": "Final Approval Completed",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T09:30:25.438800Z"
+    },
+    {
+      "id": "chk-1781691543246-0",
+      "employeeId": "emp-1781691543246",
+      "category": "application",
+      "text": "Application Submitted",
+      "isCompleted": true,
+      "updatedAt": "2026-06-17T10:21:33.439562Z"
+    },
+    {
+      "id": "chk-1781691543247-1",
+      "employeeId": "emp-1781691543246",
+      "category": "documents",
+      "text": "Resume Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T10:19:03.246028Z"
+    },
+    {
+      "id": "chk-1781691543247-2",
+      "employeeId": "emp-1781691543246",
+      "category": "documents",
+      "text": "Aadhaar Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T10:19:03.246028Z"
+    },
+    {
+      "id": "chk-1781691543247-3",
+      "employeeId": "emp-1781691543246",
+      "category": "documents",
+      "text": "PAN Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T10:19:03.246028Z"
+    },
+    {
+      "id": "chk-1781691543247-4",
+      "employeeId": "emp-1781691543246",
+      "category": "documents",
+      "text": "Passport Photo Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T10:19:03.246028Z"
+    },
+    {
+      "id": "chk-1781691543247-5",
+      "employeeId": "emp-1781691543246",
+      "category": "documents",
+      "text": "Educational Certificates Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T10:19:03.246028Z"
+    },
+    {
+      "id": "chk-1781691543247-6",
+      "employeeId": "emp-1781691543246",
+      "category": "assessments",
+      "text": "Test Assigned",
+      "isCompleted": true,
+      "updatedAt": "2026-06-17T10:24:37.458431Z"
+    },
+    {
+      "id": "chk-1781691543247-7",
+      "employeeId": "emp-1781691543246",
+      "category": "assessments",
+      "text": "Test Completed",
+      "isCompleted": true,
+      "updatedAt": "2026-06-17T10:23:46.388036Z"
+    },
+    {
+      "id": "chk-1781691543247-8",
+      "employeeId": "emp-1781691543246",
+      "category": "assessments",
+      "text": "Passed Assessment",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T10:19:03.246028Z"
+    },
+    {
+      "id": "chk-1781691543247-9",
+      "employeeId": "emp-1781691543246",
+      "category": "approval",
+      "text": "HR Review Completed",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T10:19:03.246028Z"
+    },
+    {
+      "id": "chk-1781691543247-10",
+      "employeeId": "emp-1781691543246",
+      "category": "approval",
+      "text": "Final Approval Completed",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T10:19:03.246028Z"
+    },
+    {
+      "id": "chk-1781699299532-0",
+      "employeeId": "emp-1781699299532",
+      "category": "application",
+      "text": "Application Submitted",
+      "isCompleted": true,
+      "updatedAt": "2026-06-17T12:30:05.148445Z"
+    },
+    {
+      "id": "chk-1781699299532-1",
+      "employeeId": "emp-1781699299532",
+      "category": "documents",
+      "text": "Resume Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T12:28:19.532763Z"
+    },
+    {
+      "id": "chk-1781699299532-2",
+      "employeeId": "emp-1781699299532",
+      "category": "documents",
+      "text": "Aadhaar Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T12:28:19.532763Z"
+    },
+    {
+      "id": "chk-1781699299532-3",
+      "employeeId": "emp-1781699299532",
+      "category": "documents",
+      "text": "PAN Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T12:28:19.532763Z"
+    },
+    {
+      "id": "chk-1781699299532-4",
+      "employeeId": "emp-1781699299532",
+      "category": "documents",
+      "text": "Passport Photo Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T12:28:19.532763Z"
+    },
+    {
+      "id": "chk-1781699299532-5",
+      "employeeId": "emp-1781699299532",
+      "category": "documents",
+      "text": "Educational Certificates Uploaded",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T12:28:19.532763Z"
+    },
+    {
+      "id": "chk-1781699299532-6",
+      "employeeId": "emp-1781699299532",
+      "category": "assessments",
+      "text": "Test Assigned",
+      "isCompleted": true,
+      "updatedAt": "2026-06-17T12:28:19.536642Z"
+    },
+    {
+      "id": "chk-1781699299532-7",
+      "employeeId": "emp-1781699299532",
+      "category": "assessments",
+      "text": "Test Completed",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T12:28:19.532763Z"
+    },
+    {
+      "id": "chk-1781699299532-8",
+      "employeeId": "emp-1781699299532",
+      "category": "assessments",
+      "text": "Passed Assessment",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T12:28:19.532763Z"
+    },
+    {
+      "id": "chk-1781699299532-9",
+      "employeeId": "emp-1781699299532",
+      "category": "approval",
+      "text": "HR Review Completed",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T12:28:19.532763Z"
+    },
+    {
+      "id": "chk-1781699299532-10",
+      "employeeId": "emp-1781699299532",
+      "category": "approval",
+      "text": "Final Approval Completed",
+      "isCompleted": false,
+      "updatedAt": "2026-06-17T12:28:19.532763Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "log-1782473995262-25761",
+      "employeeId": "emp-1",
+      "employeeName": "Bharath",
+      "action": "Onboarding Profile Submitted",
+      "details": "Submitted complete onboarding profile and validated checklists.",
+      "timestamp": "2026-06-26T11:39:55.262748Z"
+    },
+    {
+      "id": "log-1782473972549-26635",
+      "employeeId": "emp-1",
+      "employeeName": "Bharath",
+      "action": "Onboarding Profile Submitted",
+      "details": "Submitted complete onboarding profile and validated checklists.",
+      "timestamp": "2026-06-26T11:39:32.549975Z"
+    },
+    {
+      "id": "log-1782473722593-29198",
+      "employeeId": "admin-1",
+      "employeeName": "G Venkat (HR Lead)",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-26T11:35:22.593736Z"
+    },
+    {
+      "id": "log-1782473675514-22937",
+      "employeeId": "emp-1",
+      "employeeName": "Bharath",
+      "action": "Onboarding Profile Submitted",
+      "details": "Submitted complete onboarding profile and validated checklists.",
+      "timestamp": "2026-06-26T11:34:35.514221Z"
+    },
+    {
+      "id": "log-1782473664829-50305",
+      "employeeId": "emp-1",
+      "employeeName": "Bharath",
+      "action": "Attendance Requested",
+      "details": "Checked in for daily attendance on 2026-06-26.",
+      "timestamp": "2026-06-26T11:34:24.829996Z"
+    },
+    {
+      "id": "log-1782473641588-37258",
+      "employeeId": "emp-1",
+      "employeeName": "Bharath",
+      "action": "Exam Paused",
+      "details": "Paused taking quiz assignment: \"test\"",
+      "timestamp": "2026-06-26T11:34:01.588633Z"
+    },
+    {
+      "id": "log-1782473629840-59518",
+      "employeeId": "emp-1",
+      "employeeName": "Bharath",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"test\"",
+      "timestamp": "2026-06-26T11:33:49.840839Z"
+    },
+    {
+      "id": "log-1782473619075-19097",
+      "employeeId": "emp-1",
+      "employeeName": "Bharath",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-26T11:33:39.075831Z"
+    },
+    {
+      "id": "log-1781759571817-33063",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-18T05:12:51.817149Z"
+    },
+    {
+      "id": "log-1781758473205-17149",
+      "employeeId": "emp-1781699299532",
+      "employeeName": "king",
+      "action": "Exam Paused",
+      "details": "Paused taking quiz assignment: \"test\"",
+      "timestamp": "2026-06-18T04:54:33.205178Z"
+    },
+    {
+      "id": "log-1781758468027-58864",
+      "employeeId": "emp-1781699299532",
+      "employeeName": "king",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"test\"",
+      "timestamp": "2026-06-18T04:54:28.027613Z"
+    },
+    {
+      "id": "log-1781699405149-61356",
+      "employeeId": "emp-1781699299532",
+      "employeeName": "king",
+      "action": "Onboarding Profile Submitted",
+      "details": "Submitted complete onboarding profile and validated checklists.",
+      "timestamp": "2026-06-17T12:30:05.149015Z"
+    },
+    {
+      "id": "log-1781699365287-86140",
+      "employeeId": "emp-1781699299532",
+      "employeeName": "king",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T12:29:25.287331Z"
+    },
+    {
+      "id": "log-1781699299532-59283",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Account Provisioned",
+      "details": "Created employee account: king (king@gmail.com)",
+      "timestamp": "2026-06-17T12:28:19.532763Z"
+    },
+    {
+      "id": "log-1781698168791-69760",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Onboarding Profile Submitted",
+      "details": "Submitted complete onboarding profile and validated checklists.",
+      "timestamp": "2026-06-17T12:09:28.791248Z"
+    },
+    {
+      "id": "log-1781698087073-20773",
+      "employeeId": "admin-1",
+      "employeeName": "G Venkat (HR Lead)",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T12:08:07.073719Z"
+    },
+    {
+      "id": "log-1781698018471-10822",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T12:06:58.472729Z"
+    },
+    {
+      "id": "log-1781697283242-13447",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T11:54:43.243421Z"
+    },
+    {
+      "id": "log-1781693534770-32891",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Assessment Completed",
+      "details": "Finished exam [Enterprise Security & Compliance Quiz]. Score: 100%. Grade Result: PASSED",
+      "timestamp": "2026-06-17T10:52:14.770806Z"
+    },
+    {
+      "id": "log-1781693500664-11971",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"Enterprise Security & Compliance Quiz\"",
+      "timestamp": "2026-06-17T10:51:40.664420Z"
+    },
+    {
+      "id": "log-1781693486885-91538",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Assigned Test Standard",
+      "details": "Drafted exam deployment [Enterprise Security & Compliance Quiz] to shriya",
+      "timestamp": "2026-06-17T10:51:26.885446Z"
+    },
+    {
+      "id": "log-1781693442195-67934",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Assessment Completed",
+      "details": "Finished exam [Enterprise Security & Compliance Quiz]. Score: 50%. Grade Result: FAILED",
+      "timestamp": "2026-06-17T10:50:42.195268Z"
+    },
+    {
+      "id": "log-1781693430140-75868",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"Enterprise Security & Compliance Quiz\"",
+      "timestamp": "2026-06-17T10:50:30.140136Z"
+    },
+    {
+      "id": "log-1781693406887-28336",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Assigned Test Standard",
+      "details": "Drafted exam deployment [Enterprise Security & Compliance Quiz] to shriya",
+      "timestamp": "2026-06-17T10:50:06.887526Z"
+    },
+    {
+      "id": "log-1781693275797-50226",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Assessment Completed",
+      "details": "Finished exam [Enterprise Security & Compliance Quiz]. Score: 100%. Grade Result: PASSED",
+      "timestamp": "2026-06-17T10:47:55.797392Z"
+    },
+    {
+      "id": "log-1781693220985-94888",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"Enterprise Security & Compliance Quiz\"",
+      "timestamp": "2026-06-17T10:47:00.985206Z"
+    },
+    {
+      "id": "log-1781693160840-70798",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T10:46:00.840271Z"
+    },
+    {
+      "id": "log-1781693142320-23022",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T10:45:42.320782Z"
+    },
+    {
+      "id": "log-1781693128444-87380",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Assigned Test Standard",
+      "details": "Drafted exam deployment [Enterprise Security & Compliance Quiz] to shriya",
+      "timestamp": "2026-06-17T10:45:28.444131Z"
+    },
+    {
+      "id": "log-1781692909991-50766",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Assessment Completed",
+      "details": "Finished exam [Enterprise Security & Compliance Quiz]. Score: 0%. Grade Result: FAILED",
+      "timestamp": "2026-06-17T10:41:49.991371Z"
+    },
+    {
+      "id": "log-1781692899620-84932",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"Enterprise Security & Compliance Quiz\"",
+      "timestamp": "2026-06-17T10:41:39.620711Z"
+    },
+    {
+      "id": "log-1781692888928-49586",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Assigned Test Standard",
+      "details": "Drafted exam deployment [Enterprise Security & Compliance Quiz] to shriya",
+      "timestamp": "2026-06-17T10:41:28.928903Z"
+    },
+    {
+      "id": "log-1781692861259-91874",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Assessment Completed",
+      "details": "Finished exam [Enterprise Security & Compliance Quiz]. Score: 50%. Grade Result: FAILED",
+      "timestamp": "2026-06-17T10:41:01.259226Z"
+    },
+    {
+      "id": "log-1781692850230-25340",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"Enterprise Security & Compliance Quiz\"",
+      "timestamp": "2026-06-17T10:40:50.230248Z"
+    },
+    {
+      "id": "log-1781692827890-56884",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Assigned Test Standard",
+      "details": "Drafted exam deployment [Enterprise Security & Compliance Quiz] to shriya",
+      "timestamp": "2026-06-17T10:40:27.890594Z"
+    },
+    {
+      "id": "log-1781692806395-86899",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Assessment Completed",
+      "details": "Finished exam [Enterprise Security & Compliance Quiz]. Score: 50%. Grade Result: FAILED",
+      "timestamp": "2026-06-17T10:40:06.395266Z"
+    },
+    {
+      "id": "log-1781692795519-88146",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"Enterprise Security & Compliance Quiz\"",
+      "timestamp": "2026-06-17T10:39:55.519678Z"
+    },
+    {
+      "id": "log-1781692784983-90584",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T10:39:44.983747Z"
+    },
+    {
+      "id": "log-1781692705982-29428",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Assigned Test Standard",
+      "details": "Drafted exam deployment [Enterprise Security & Compliance Quiz] to shriya",
+      "timestamp": "2026-06-17T10:38:25.982398Z"
+    },
+    {
+      "id": "log-1781692684810-25165",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Assessment Completed",
+      "details": "Finished exam [Enterprise Security & Compliance Quiz]. Score: 0%. Grade Result: FAILED",
+      "timestamp": "2026-06-17T10:38:04.810542Z"
+    },
+    {
+      "id": "log-1781692672003-91206",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"Enterprise Security & Compliance Quiz\"",
+      "timestamp": "2026-06-17T10:37:52.003761Z"
+    },
+    {
+      "id": "log-1781692602764-35325",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Assigned Test Standard",
+      "details": "Drafted exam deployment [Enterprise Security & Compliance Quiz] to shriya",
+      "timestamp": "2026-06-17T10:36:42.764726Z"
+    },
+    {
+      "id": "log-1781692258238-69587",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Assessment Completed",
+      "details": "Finished exam [test]. Score: 50%. Grade Result: FAILED",
+      "timestamp": "2026-06-17T10:30:58.238327Z"
+    },
+    {
+      "id": "log-1781692226570-60037",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"test\"",
+      "timestamp": "2026-06-17T10:30:26.570707Z"
+    },
+    {
+      "id": "log-1781692224504-27896",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T10:30:24.504918Z"
+    },
+    {
+      "id": "log-1781692213326-20752",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Assessment Completed",
+      "details": "Finished exam [Enterprise Security & Compliance Quiz]. Score: 0%. Grade Result: FAILED",
+      "timestamp": "2026-06-17T10:30:13.326521Z"
+    },
+    {
+      "id": "log-1781692199587-98595",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"Enterprise Security & Compliance Quiz\"",
+      "timestamp": "2026-06-17T10:29:59.587152Z"
+    },
+    {
+      "id": "log-1781692182838-81260",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T10:29:42.838752Z"
+    },
+    {
+      "id": "log-1781692176805-25802",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Assigned Test Standard",
+      "details": "Drafted exam deployment [Enterprise Security & Compliance Quiz] to shriya",
+      "timestamp": "2026-06-17T10:29:36.805459Z"
+    },
+    {
+      "id": "log-1781691877458-32724",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Assigned Test Standard",
+      "details": "Drafted exam deployment [test] to gopi",
+      "timestamp": "2026-06-17T10:24:37.458431Z"
+    },
+    {
+      "id": "log-1781691826388-69218",
+      "employeeId": "emp-1781691543246",
+      "employeeName": "gopi",
+      "action": "Assessment Completed",
+      "details": "Finished exam [test]. Score: 12%. Grade Result: FAILED",
+      "timestamp": "2026-06-17T10:23:46.388036Z"
+    },
+    {
+      "id": "log-1781691810204-81249",
+      "employeeId": "emp-1781691543246",
+      "employeeName": "gopi",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"test\"",
+      "timestamp": "2026-06-17T10:23:30.204940Z"
+    },
+    {
+      "id": "log-1781691799777-74027",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Assigned Test Standard",
+      "details": "Drafted exam deployment [test] to gopi",
+      "timestamp": "2026-06-17T10:23:19.777141Z"
+    },
+    {
+      "id": "log-1781691771376-91970",
+      "employeeId": "emp-1781691543246",
+      "employeeName": "gopi",
+      "action": "Assessment Completed",
+      "details": "Finished exam [Enterprise Security & Compliance Quiz]. Score: 0%. Grade Result: FAILED",
+      "timestamp": "2026-06-17T10:22:51.376797Z"
+    },
+    {
+      "id": "log-1781691757869-13575",
+      "employeeId": "emp-1781691543246",
+      "employeeName": "gopi",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"Enterprise Security & Compliance Quiz\"",
+      "timestamp": "2026-06-17T10:22:37.869373Z"
+    },
+    {
+      "id": "log-1781691747936-16350",
+      "employeeId": "emp-1781691543246",
+      "employeeName": "gopi",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T10:22:27.936945Z"
+    },
+    {
+      "id": "log-1781691693440-69246",
+      "employeeId": "emp-1781691543246",
+      "employeeName": "gopi",
+      "action": "Onboarding Profile Submitted",
+      "details": "Submitted complete onboarding profile and validated checklists.",
+      "timestamp": "2026-06-17T10:21:33.440573Z"
+    },
+    {
+      "id": "log-1781691574834-71006",
+      "employeeId": "emp-1781691543246",
+      "employeeName": "gopi",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T10:19:34.834370Z"
+    },
+    {
+      "id": "log-1781691543247-28635",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Account Provisioned",
+      "details": "Created employee account: gopi (gopikrishna@gmail.com)",
+      "timestamp": "2026-06-17T10:19:03.247543Z"
+    },
+    {
+      "id": "log-1781691382882-30803",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Assessment Completed",
+      "details": "Finished exam [Enterprise Security & Compliance Quiz]. Score: 50%. Grade Result: FAILED",
+      "timestamp": "2026-06-17T10:16:22.882010Z"
+    },
+    {
+      "id": "log-1781691346911-25536",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"Enterprise Security & Compliance Quiz\"",
+      "timestamp": "2026-06-17T10:15:46.913070Z"
+    },
+    {
+      "id": "log-1781690972310-23844",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Exam Paused",
+      "details": "Paused taking quiz assignment: \"Enterprise Security & Compliance Quiz\"",
+      "timestamp": "2026-06-17T10:09:32.310835Z"
+    },
+    {
+      "id": "log-1781690959907-45279",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"Enterprise Security & Compliance Quiz\"",
+      "timestamp": "2026-06-17T10:09:19.907834Z"
+    },
+    {
+      "id": "log-1781690944832-89679",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T10:09:04.832965Z"
+    },
+    {
+      "id": "log-1781690640398-30054",
+      "employeeId": "admin-1",
+      "employeeName": "G Venkat (HR Lead)",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T10:04:00.399191Z"
+    },
+    {
+      "id": "log-1781690328529-58923",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T09:58:48.529204Z"
+    },
+    {
+      "id": "log-1781689734541-84841",
+      "employeeId": "admin-1",
+      "employeeName": "G Venkat (HR Lead)",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T09:48:54.542417Z"
+    },
+    {
+      "id": "log-1781689655862-82699",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T09:47:35.862479Z"
+    },
+    {
+      "id": "log-1781689551796-24769",
+      "employeeId": "admin-1",
+      "employeeName": "G Venkat (HR Lead)",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T09:45:51.796332Z"
+    },
+    {
+      "id": "log-1781689470137-72062",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Exam Paused",
+      "details": "Paused taking quiz assignment: \"Enterprise Security & Compliance Quiz\"",
+      "timestamp": "2026-06-17T09:44:30.137025Z"
+    },
+    {
+      "id": "log-1781689465068-15879",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"Enterprise Security & Compliance Quiz\"",
+      "timestamp": "2026-06-17T09:44:25.068743Z"
+    },
+    {
+      "id": "log-1781689463742-78551",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T09:44:23.742654Z"
+    },
+    {
+      "id": "log-1781688928158-73663",
+      "employeeId": "admin-1",
+      "employeeName": "G Venkat (HR Lead)",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T09:35:28.158539Z"
+    },
+    {
+      "id": "log-1781688775901-16171",
+      "employeeId": "emp-1781688625438",
+      "employeeName": "shriya",
+      "action": "Onboarding Profile Submitted",
+      "details": "Submitted complete onboarding profile and validated checklists.",
+      "timestamp": "2026-06-17T09:32:55.901813Z"
+    },
+    {
+      "id": "log-1781688702899-19620",
+      "employeeId": "emp-1781688625438",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T09:31:42.899316Z"
+    },
+    {
+      "id": "log-1781688625438-61995",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Account Provisioned",
+      "details": "Created employee account: shriya (shriyachary@gmail.com)",
+      "timestamp": "2026-06-17T09:30:25.438800Z"
+    },
+    {
+      "id": "log-1781688513822-49544",
+      "employeeId": "admin-1",
+      "employeeName": "G Venkat (HR Lead)",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T09:28:33.822263Z"
+    },
+    {
+      "id": "log-1781686652456-92584",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Assessment Completed",
+      "details": "Finished exam [AgentOps Core React & Node Assessment]. Score: 0%. Grade Result: FAILED",
+      "timestamp": "2026-06-17T08:57:32.456664Z"
+    },
+    {
+      "id": "log-1781686645936-97704",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"AgentOps Core React & Node Assessment\"",
+      "timestamp": "2026-06-17T08:57:25.936600Z"
+    },
+    {
+      "id": "log-1781686629863-46604",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Assigned Test Standard",
+      "details": "Drafted exam deployment [AgentOps Core React & Node Assessment] to shriya",
+      "timestamp": "2026-06-17T08:57:09.863201Z"
+    },
+    {
+      "id": "log-1781686594601-32053",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Assessment Completed",
+      "details": "Finished exam [AgentOps Core React & Node Assessment]. Score: 0%. Grade Result: FAILED",
+      "timestamp": "2026-06-17T08:56:34.601018Z"
+    },
+    {
+      "id": "log-1781686579493-57519",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"AgentOps Core React & Node Assessment\"",
+      "timestamp": "2026-06-17T08:56:19.494829Z"
+    },
+    {
+      "id": "log-1781686307379-22740",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Assigned Test Standard",
+      "details": "Drafted exam deployment [AgentOps Core React & Node Assessment] to shriya",
+      "timestamp": "2026-06-17T08:51:47.379429Z"
+    },
+    {
+      "id": "log-1781686279121-70783",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Assessment Completed",
+      "details": "Finished exam [AgentOps Core React & Node Assessment]. Score: 50%. Grade Result: FAILED",
+      "timestamp": "2026-06-17T08:51:19.121930Z"
+    },
+    {
+      "id": "log-1781686268836-10619",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"AgentOps Core React & Node Assessment\"",
+      "timestamp": "2026-06-17T08:51:08.836515Z"
+    },
+    {
+      "id": "log-1781686259434-50868",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Assigned Test Standard",
+      "details": "Drafted exam deployment [AgentOps Core React & Node Assessment] to shriya",
+      "timestamp": "2026-06-17T08:50:59.434157Z"
+    },
+    {
+      "id": "log-1781686230943-36719",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T08:50:30.943681Z"
+    },
+    {
+      "id": "log-1781686182127-98506",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T08:49:42.127517Z"
+    },
+    {
+      "id": "log-1781686132493-58596",
+      "employeeId": "admin-1",
+      "employeeName": "G Venkat (HR Lead)",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T08:48:52.493596Z"
+    },
+    {
+      "id": "log-1781686049783-44303",
+      "employeeId": "emp-1781685362464",
+      "employeeName": "shriya",
+      "action": "Assessment Completed",
+      "details": "Finished exam [AgentOps Core React & Node Assessment]. Score: 0%. Grade Result: FAILED",
+      "timestamp": "2026-06-17T08:47:29.785470Z"
+    },
+    {
+      "id": "log-1781685581703-49699",
+      "employeeId": "emp-1781685362464",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"AgentOps Core React & Node Assessment\"",
+      "timestamp": "2026-06-17T08:39:41.703881Z"
+    },
+    {
+      "id": "log-1781685571389-91576",
+      "employeeId": "emp-1781685362464",
+      "employeeName": "shriya",
+      "action": "Onboarding Profile Submitted",
+      "details": "Submitted complete onboarding profile and validated checklists.",
+      "timestamp": "2026-06-17T08:39:31.390407Z"
+    },
+    {
+      "id": "log-1781685387835-94670",
+      "employeeId": "emp-1781685362464",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T08:36:27.835483Z"
+    },
+    {
+      "id": "log-1781685362465-25414",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Account Provisioned",
+      "details": "Created employee account: shriya (shriya08@gmail.com)",
+      "timestamp": "2026-06-17T08:36:02.465818Z"
+    },
+    {
+      "id": "log-1781685313730-56080",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Assigned Test Standard",
+      "details": "Drafted exam deployment [AgentOps Core React & Node Assessment] to shriya",
+      "timestamp": "2026-06-17T08:35:13.730112Z"
+    },
+    {
+      "id": "log-1781685289911-62192",
+      "employeeId": "admin-1",
+      "employeeName": "G Venkat (HR Lead)",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T08:34:49.911075Z"
+    },
+    {
+      "id": "log-1781685167395-89205",
+      "employeeId": "emp-1781679186490",
+      "employeeName": "shriya",
+      "action": "Assessment Completed",
+      "details": "Finished exam [AgentOps Core React & Node Assessment]. Score: 100%. Grade Result: PASSED",
+      "timestamp": "2026-06-17T08:32:47.395430Z"
+    },
+    {
+      "id": "log-1781685004727-94867",
+      "employeeId": "emp-1781679186490",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"AgentOps Core React & Node Assessment\"",
+      "timestamp": "2026-06-17T08:30:04.727015Z"
+    },
+    {
+      "id": "log-1781684975698-99464",
+      "employeeId": "emp-1781679186490",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T08:29:35.698818Z"
+    },
+    {
+      "id": "log-1781684951893-73992",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T08:29:11.893762Z"
+    },
+    {
+      "id": "log-1781683019200-27522",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Assigned Test Standard",
+      "details": "Drafted exam deployment [AgentOps Core React & Node Assessment] to shriya",
+      "timestamp": "2026-06-17T07:56:59.200771Z"
+    },
+    {
+      "id": "log-1781680649923-42751",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Attendance Approved",
+      "details": "Approved attendance for employee shriya on 2026-06-17.",
+      "timestamp": "2026-06-17T07:17:29.923703Z"
+    },
+    {
+      "id": "log-1781680566140-37646",
+      "employeeId": "admin-1",
+      "employeeName": "G Venkat (HR Lead)",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T07:16:06.140146Z"
+    },
+    {
+      "id": "log-1781680495758-78878",
+      "employeeId": "emp-1781679186490",
+      "employeeName": "shriya",
+      "action": "Attendance Requested",
+      "details": "Checked in for daily attendance on 2026-06-17.",
+      "timestamp": "2026-06-17T07:14:55.758575Z"
+    },
+    {
+      "id": "log-1781680470270-65295",
+      "employeeId": "emp-1781679186490",
+      "employeeName": "shriya",
+      "action": "Onboarding Profile Submitted",
+      "details": "Submitted complete onboarding profile and validated checklists.",
+      "timestamp": "2026-06-17T07:14:30.270104Z"
+    },
+    {
+      "id": "log-1781680470198-37145",
+      "employeeId": "admin-1",
+      "employeeName": "Admin",
+      "action": "Employee Profile Updated",
+      "details": "Updated details of employee: emp-1781679186490",
+      "timestamp": "2026-06-17T07:14:30.198387Z"
+    },
+    {
+      "id": "log-1781680389435-47298",
+      "employeeId": "emp-1781679186490",
+      "employeeName": "shriya",
+      "action": "Assessment Completed",
+      "details": "Finished exam [AgentOps Core React & Node Assessment]. Score: 0%. Grade Result: FAILED",
+      "timestamp": "2026-06-17T07:13:09.436315Z"
+    },
+    {
+      "id": "log-1781680363531-55952",
+      "employeeId": "emp-1781679186490",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"AgentOps Core React & Node Assessment\"",
+      "timestamp": "2026-06-17T07:12:43.531920Z"
+    },
+    {
+      "id": "log-1781679399791-11728",
+      "employeeId": "emp-1781679186490",
+      "employeeName": "shriya",
+      "action": "Exam Paused",
+      "details": "Paused taking quiz assignment: \"AgentOps Core React & Node Assessment\"",
+      "timestamp": "2026-06-17T06:56:39.791892Z"
+    },
+    {
+      "id": "log-1781679393015-86223",
+      "employeeId": "emp-1781679186490",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"AgentOps Core React & Node Assessment\"",
+      "timestamp": "2026-06-17T06:56:33.015579Z"
+    },
+    {
+      "id": "log-1781679390445-52028",
+      "employeeId": "emp-1781679186490",
+      "employeeName": "shriya",
+      "action": "Exam Paused",
+      "details": "Paused taking quiz assignment: \"AgentOps Core React & Node Assessment\"",
+      "timestamp": "2026-06-17T06:56:30.445847Z"
+    },
+    {
+      "id": "log-1781679265061-77432",
+      "employeeId": "emp-1781679186490",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"AgentOps Core React & Node Assessment\"",
+      "timestamp": "2026-06-17T06:54:25.061105Z"
+    },
+    {
+      "id": "log-1781679255276-63534",
+      "employeeId": "emp-1781679186490",
+      "employeeName": "shriya",
+      "action": "Onboarding Profile Submitted",
+      "details": "Submitted complete onboarding profile and validated checklists.",
+      "timestamp": "2026-06-17T06:54:15.276226Z"
+    },
+    {
+      "id": "log-1781679212768-71772",
+      "employeeId": "emp-1781679186490",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T06:53:32.768217Z"
+    },
+    {
+      "id": "log-1781679186490-90468",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Account Provisioned",
+      "details": "Created employee account: shriya (shriyachary08@gmail.com)",
+      "timestamp": "2026-06-17T06:53:06.490796Z"
+    },
+    {
+      "id": "log-1781679125554-87900",
+      "employeeId": "admin-1",
+      "employeeName": "G Venkat (HR Lead)",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T06:52:05.554682Z"
+    },
+    {
+      "id": "log-1781679086510-45205",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T06:51:26.510937Z"
+    },
+    {
+      "id": "log-1781677398886-89153",
+      "employeeId": "emp-1781677214465",
+      "employeeName": "bharath",
+      "action": "Assessment Completed",
+      "details": "Finished exam [AgentOps Core React & Node Assessment]. Score: 25%. Grade Result: FAILED",
+      "timestamp": "2026-06-17T06:23:18.886074Z"
+    },
+    {
+      "id": "log-1781677378128-92119",
+      "employeeId": "emp-1781677214465",
+      "employeeName": "bharath",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"AgentOps Core React & Node Assessment\"",
+      "timestamp": "2026-06-17T06:22:58.128730Z"
+    },
+    {
+      "id": "log-1781677361098-95445",
+      "employeeId": "emp-1781677214465",
+      "employeeName": "bharath",
+      "action": "Onboarding Profile Submitted",
+      "details": "Submitted complete onboarding profile and validated checklists.",
+      "timestamp": "2026-06-17T06:22:41.098177Z"
+    },
+    {
+      "id": "log-1781677250210-34009",
+      "employeeId": "emp-1781677214465",
+      "employeeName": "bharath",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T06:20:50.210337Z"
+    },
+    {
+      "id": "log-1781677214465-72383",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Account Provisioned",
+      "details": "Created employee account: bharath (bharathjanga@gmail.com)",
+      "timestamp": "2026-06-17T06:20:14.465784Z"
+    },
+    {
+      "id": "log-1781677071701-97870",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Attendance Approved",
+      "details": "Approved attendance for employee Bharath on 2026-06-12.",
+      "timestamp": "2026-06-17T06:17:51.701767Z"
+    },
+    {
+      "id": "log-1781676920991-12100",
+      "employeeId": "admin-1",
+      "employeeName": "G Venkat (HR Lead)",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T06:15:20.992057Z"
+    },
+    {
+      "id": "log-1781676770380-90281",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T06:12:50.380286Z"
+    },
+    {
+      "id": "log-1781676420111-96408",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T06:07:00.111829Z"
+    },
+    {
+      "id": "log-1781676381763-56905",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Assessment Completed",
+      "details": "Finished exam [AgentOps Core React & Node Assessment]. Score: 25%. Grade Result: FAILED",
+      "timestamp": "2026-06-17T06:06:21.763370Z"
+    },
+    {
+      "id": "log-1781676318443-88855",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"AgentOps Core React & Node Assessment\"",
+      "timestamp": "2026-06-17T06:05:18.444467Z"
+    },
+    {
+      "id": "log-1781676308396-80355",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T06:05:08.396635Z"
+    },
+    {
+      "id": "log-1781676218785-63903",
+      "employeeId": "admin-1",
+      "employeeName": "Admin",
+      "action": "Employee Profile Deleted",
+      "details": "Deregistered account and removed index metadata for: emp-1781676175369",
+      "timestamp": "2026-06-17T06:03:38.785679Z"
+    },
+    {
+      "id": "log-1781676175369-35906",
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Account Provisioned",
+      "details": "Created employee account: Test Employee (testemployee@gmail.com)",
+      "timestamp": "2026-06-17T06:02:55.369602Z"
+    },
+    {
+      "id": "log-1781675343536-20690",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "Onboarding Profile Submitted",
+      "details": "Submitted complete onboarding profile and validated checklists.",
+      "timestamp": "2026-06-17T05:49:03.536670Z"
+    },
+    {
+      "id": "log-1781675258346-94014",
+      "employeeId": "emp-1781264493152",
+      "employeeName": "shriya",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-17T05:47:38.346504Z"
+    },
+    {
+      "employeeId": "emp-1",
+      "employeeName": "Bharath",
+      "timestamp": "2026-06-12T09:19:46.377303Z",
+      "id": "log-1",
+      "action": "Account Provisioned",
+      "details": "Welcome profile automatically generated by system default seeds."
+    },
+    {
+      "employeeId": "admin-1",
+      "timestamp": "2026-06-12T09:19:46.480215Z",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Leave Approved",
+      "details": "Approved leave request for employee Bharath from 2026-06-15 to 2026-06-19.",
+      "id": "log-1781255986480-52526"
+    },
+    {
+      "employeeId": "emp-1",
+      "timestamp": "2026-06-12T09:20:38.893758Z",
+      "employeeName": "Bharath",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "id": "log-1781256038893-94831"
+    },
+    {
+      "employeeId": "admin-1",
+      "details": "Successful authentication via credentials.",
+      "action": "User Sign-In",
+      "id": "log-1781256085012-47480",
+      "timestamp": "2026-06-12T09:21:25.012441Z",
+      "employeeName": "G Venkat (HR Lead)"
+    },
+    {
+      "employeeId": "admin-1",
+      "details": "Created new exam standard: \"test\"",
+      "action": "Assessment Created",
+      "id": "log-1781256865340-16030",
+      "employeeName": "Admin Olivia Vance",
+      "timestamp": "2026-06-12T09:34:25.340327Z"
+    },
+    {
+      "employeeId": "admin-1",
+      "action": "Assigned Test Standard",
+      "details": "Drafted exam deployment [test] to Bharath",
+      "id": "log-1781256877473-58498",
+      "timestamp": "2026-06-12T09:34:37.473700Z",
+      "employeeName": "Admin Olivia Vance"
+    },
+    {
+      "employeeId": "emp-1",
+      "id": "log-1781256885175-36969",
+      "details": "Successful authentication via credentials.",
+      "action": "User Sign-In",
+      "employeeName": "Bharath",
+      "timestamp": "2026-06-12T09:34:45.175695Z"
+    },
+    {
+      "employeeId": "emp-1",
+      "details": "Submitted complete onboarding profile and validated checklists.",
+      "action": "Onboarding Profile Submitted",
+      "id": "log-1781256895821-55329",
+      "timestamp": "2026-06-12T09:34:55.821968Z",
+      "employeeName": "Bharath"
+    },
+    {
+      "employeeId": "emp-1",
+      "details": "Checked in for daily attendance on 2026-06-12.",
+      "action": "Attendance Requested",
+      "id": "log-1781256901314-44521",
+      "employeeName": "Bharath",
+      "timestamp": "2026-06-12T09:35:01.314132Z"
+    },
+    {
+      "timestamp": "2026-06-12T09:35:16.731560Z",
+      "employeeName": "Bharath",
+      "details": "Began taking quiz assignment: \"test\"",
+      "action": "Exam Commenced",
+      "id": "log-1781256916731-35285",
+      "employeeId": "emp-1"
+    },
+    {
+      "employeeId": "emp-1",
+      "employeeName": "Bharath",
+      "timestamp": "2026-06-12T09:35:19.524030Z",
+      "details": "Began taking quiz assignment: \"test\"",
+      "action": "Exam Commenced",
+      "id": "log-1781256919523-72019"
+    },
+    {
+      "employeeId": "emp-1",
+      "id": "log-1781256956358-15506",
+      "details": "Paused taking quiz assignment: \"test\"",
+      "action": "Exam Paused",
+      "employeeName": "Bharath",
+      "timestamp": "2026-06-12T09:35:56.358673Z"
+    },
+    {
+      "timestamp": "2026-06-12T09:36:00.437022Z",
+      "employeeName": "Bharath",
+      "id": "log-1781256960436-99492",
+      "action": "Exam Paused",
+      "details": "Paused taking quiz assignment: \"test\"",
+      "employeeId": "emp-1"
+    },
+    {
+      "timestamp": "2026-06-12T09:36:06.847945Z",
+      "employeeName": "Bharath",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"test\"",
+      "id": "log-1781256966847-40564",
+      "employeeId": "emp-1"
+    },
+    {
+      "employeeId": "emp-1",
+      "timestamp": "2026-06-12T09:36:09.968440Z",
+      "employeeName": "Bharath",
+      "id": "log-1781256969968-96983",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"test\""
+    },
+    {
+      "employeeId": "emp-1",
+      "id": "log-1781256977719-36553",
+      "details": "Paused taking quiz assignment: \"test\"",
+      "action": "Exam Paused",
+      "timestamp": "2026-06-12T09:36:17.719366Z",
+      "employeeName": "Bharath"
+    },
+    {
+      "timestamp": "2026-06-12T09:36:21.170626Z",
+      "employeeName": "Bharath",
+      "details": "Paused taking quiz assignment: \"test\"",
+      "action": "Exam Paused",
+      "id": "log-1781256981170-88372",
+      "employeeId": "emp-1"
+    },
+    {
+      "timestamp": "2026-06-12T09:36:25.798328Z",
+      "employeeName": "Bharath",
+      "id": "log-1781256985798-99904",
+      "action": "Exam Paused",
+      "details": "Paused taking quiz assignment: \"test\"",
+      "employeeId": "emp-1"
+    },
+    {
+      "details": "Successful authentication via credentials.",
+      "action": "User Sign-In",
+      "id": "log-1781257697019-89520",
+      "employeeName": "Bharath",
+      "timestamp": "2026-06-12T09:48:17.019656Z",
+      "employeeId": "emp-1"
+    },
+    {
+      "details": "Checked in for daily attendance on 2026-06-12.",
+      "action": "Attendance Requested",
+      "id": "log-1781257714776-14392",
+      "employeeName": "Bharath",
+      "timestamp": "2026-06-12T09:48:34.776663Z",
+      "employeeId": "emp-1"
+    },
+    {
+      "employeeId": "admin-1",
+      "employeeName": "G Venkat (HR Lead)",
+      "timestamp": "2026-06-12T11:28:15.821448Z",
+      "id": "log-1781263695821-80144",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials."
+    },
+    {
+      "timestamp": "2026-06-12T11:28:53.546329Z",
+      "employeeName": "Bharath",
+      "details": "Successful authentication via credentials.",
+      "action": "User Sign-In",
+      "id": "log-1781263733546-18015",
+      "employeeId": "emp-1"
+    },
+    {
+      "employeeId": "admin-1",
+      "employeeName": "G Venkat (HR Lead)",
+      "timestamp": "2026-06-12T11:32:08.403531Z",
+      "id": "log-1781263928403-48390",
+      "details": "Successful authentication via credentials.",
+      "action": "User Sign-In"
+    },
+    {
+      "employeeName": "G Venkat (HR Lead)",
+      "timestamp": "2026-06-12T11:35:15.626342Z",
+      "id": "log-1781264115626-99827",
+      "details": "Successful authentication via credentials.",
+      "action": "User Sign-In",
+      "employeeId": "admin-1"
+    },
+    {
+      "employeeId": "admin-1",
+      "timestamp": "2026-06-12T11:39:11.682470Z",
+      "employeeName": "G Venkat (HR Lead)",
+      "id": "log-1781264351682-62325",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials."
+    },
+    {
+      "action": "Account Provisioned",
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "id": "log-1781264493152-36035",
+      "timestamp": "2026-06-12T11:41:33.152194Z",
+      "employeeName": "Admin Olivia Vance",
+      "employeeId": "admin-1"
+    },
+    {
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "timestamp": "2026-06-12T11:41:39.123112Z",
+      "action": "Account Provisioned",
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "id": "log-1781264499123-18946"
+    },
+    {
+      "employeeId": "admin-1",
+      "timestamp": "2026-06-12T11:41:40.974039Z",
+      "employeeName": "Admin Olivia Vance",
+      "id": "log-1781264500974-60105",
+      "action": "Account Provisioned",
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)"
+    },
+    {
+      "employeeName": "Admin Olivia Vance",
+      "timestamp": "2026-06-12T11:41:41.567663Z",
+      "action": "Account Provisioned",
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "id": "log-1781264501567-78231",
+      "employeeId": "admin-1"
+    },
+    {
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "action": "Account Provisioned",
+      "id": "log-1781264501714-85553",
+      "employeeName": "Admin Olivia Vance",
+      "timestamp": "2026-06-12T11:41:41.714034Z",
+      "employeeId": "admin-1"
+    },
+    {
+      "employeeId": "admin-1",
+      "action": "Account Provisioned",
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "id": "log-1781264502144-87380",
+      "employeeName": "Admin Olivia Vance",
+      "timestamp": "2026-06-12T11:41:42.144045Z"
+    },
+    {
+      "employeeId": "admin-1",
+      "timestamp": "2026-06-12T11:41:42.167040Z",
+      "employeeName": "Admin Olivia Vance",
+      "id": "log-1781264502167-74073",
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "action": "Account Provisioned"
+    },
+    {
+      "employeeId": "admin-1",
+      "action": "Account Provisioned",
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "id": "log-1781264502397-22359",
+      "timestamp": "2026-06-12T11:41:42.397305Z",
+      "employeeName": "Admin Olivia Vance"
+    },
+    {
+      "employeeId": "admin-1",
+      "timestamp": "2026-06-12T11:41:43.796479Z",
+      "employeeName": "Admin Olivia Vance",
+      "id": "log-1781264503796-98089",
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "action": "Account Provisioned"
+    },
+    {
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "action": "Account Provisioned",
+      "id": "log-1781264506844-53515",
+      "timestamp": "2026-06-12T11:41:46.844359Z",
+      "employeeName": "Admin Olivia Vance",
+      "employeeId": "admin-1"
+    },
+    {
+      "employeeName": "Admin Olivia Vance",
+      "timestamp": "2026-06-12T11:41:51.246271Z",
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "action": "Account Provisioned",
+      "id": "log-1781264511246-60562",
+      "employeeId": "admin-1"
+    },
+    {
+      "employeeId": "admin-1",
+      "id": "log-1781264513383-58061",
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "action": "Account Provisioned",
+      "timestamp": "2026-06-12T11:41:53.383381Z",
+      "employeeName": "Admin Olivia Vance"
+    },
+    {
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "timestamp": "2026-06-12T11:41:57.516522Z",
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "action": "Account Provisioned",
+      "id": "log-1781264517516-33552"
+    },
+    {
+      "employeeId": "admin-1",
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "action": "Account Provisioned",
+      "id": "log-1781264517533-24449",
+      "employeeName": "Admin Olivia Vance",
+      "timestamp": "2026-06-12T11:41:57.533973Z"
+    },
+    {
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "action": "Account Provisioned",
+      "id": "log-1781264517761-27247",
+      "timestamp": "2026-06-12T11:41:57.761141Z",
+      "employeeName": "Admin Olivia Vance",
+      "employeeId": "admin-1"
+    },
+    {
+      "employeeName": "Admin Olivia Vance",
+      "timestamp": "2026-06-12T11:41:57.771188Z",
+      "action": "Account Provisioned",
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "id": "log-1781264517771-72962",
+      "employeeId": "admin-1"
+    },
+    {
+      "timestamp": "2026-06-12T11:41:58.551588Z",
+      "employeeName": "Admin Olivia Vance",
+      "id": "log-1781264518551-93840",
+      "action": "Account Provisioned",
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "employeeId": "admin-1"
+    },
+    {
+      "timestamp": "2026-06-12T11:41:58.767455Z",
+      "employeeName": "Admin Olivia Vance",
+      "id": "log-1781264518767-76481",
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "action": "Account Provisioned",
+      "employeeId": "admin-1"
+    },
+    {
+      "employeeId": "admin-1",
+      "employeeName": "Admin Olivia Vance",
+      "timestamp": "2026-06-12T11:41:59.926910Z",
+      "action": "Account Provisioned",
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "id": "log-1781264519926-82074"
+    },
+    {
+      "timestamp": "2026-06-12T11:41:59.952730Z",
+      "employeeName": "Admin Olivia Vance",
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "action": "Account Provisioned",
+      "id": "log-1781264519952-24378",
+      "employeeId": "admin-1"
+    },
+    {
+      "timestamp": "2026-06-12T11:42:00.871923Z",
+      "employeeName": "Admin Olivia Vance",
+      "action": "Account Provisioned",
+      "details": "Created employee account: shriya (shriyachary0810@gmail.com)",
+      "id": "log-1781264520871-42137",
+      "employeeId": "admin-1"
+    },
+    {
+      "employeeId": "emp-1",
+      "details": "Successful authentication via credentials.",
+      "action": "User Sign-In",
+      "id": "log-1781264756057-95030",
+      "employeeName": "Bharath",
+      "timestamp": "2026-06-12T11:45:56.057072Z"
+    },
+    {
+      "id": "log-1781264885617-42395",
+      "action": "Attendance Approved",
+      "details": "Approved attendance for employee Bharath on 2026-06-12.",
+      "timestamp": "2026-06-12T11:48:05.618006Z",
+      "employeeName": "Admin Olivia Vance",
+      "employeeId": "admin-1"
+    },
+    {
+      "timestamp": "2026-06-12T11:48:45.358183Z",
+      "employeeName": "Admin Olivia Vance",
+      "id": "log-1781264925358-36070",
+      "action": "Attendance Approved",
+      "details": "Approved attendance for employee Bharath on 2026-06-12.",
+      "employeeId": "admin-1"
+    },
+    {
+      "employeeId": "admin-1",
+      "id": "log-1781265097514-32100",
+      "details": "Approved attendance for employee Bharath on 2026-06-12.",
+      "action": "Attendance Approved",
+      "employeeName": "Admin Olivia Vance",
+      "timestamp": "2026-06-12T11:51:37.514822Z"
+    },
+    {
+      "id": "log-1781265865682-60567",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-06-12T12:04:25.682485Z",
+      "employeeName": "Bharath",
+      "employeeId": "emp-1"
+    },
+    {
+      "employeeId": "admin-1",
+      "employeeName": "G Venkat (HR Lead)",
+      "timestamp": "2026-06-12T12:09:27.270526Z",
+      "details": "Successful authentication via credentials.",
+      "action": "User Sign-In",
+      "id": "log-1781266167270-60906"
+    },
+    {
+      "employeeId": "admin-1",
+      "timestamp": "2026-06-12T12:10:00.156163Z",
+      "employeeName": "Admin Olivia Vance",
+      "id": "log-1781266200156-94105",
+      "details": "Approved attendance for employee Bharath on 2026-06-12.",
+      "action": "Attendance Approved"
+    }
+  ],
+  "emails": [
+    {
+      "id": "email-1782473995326-1354",
+      "to": "admin@agentops.com",
+      "subject": "New Candidate Application: Bharath",
+      "body": "Onboarding application submitted by candidate: Bharath (bharathsathyasaijanga@gmail.com).\nSubmission Time: 2026-06-26 17:09:55\nStatus: PENDING ADMIN REVIEW.",
+      "sentAt": "2026-06-26T11:39:55.327106Z",
+      "type": "app_submitted"
+    },
+    {
+      "id": "email-1782473972585-7837",
+      "to": "admin@agentops.com",
+      "subject": "New Candidate Application: Bharath",
+      "body": "Onboarding application submitted by candidate: Bharath (bharathsathyasaijanga@gmail.com).\nSubmission Time: 2026-06-26 17:09:32\nStatus: PENDING ADMIN REVIEW.",
+      "sentAt": "2026-06-26T11:39:32.585223Z",
+      "type": "app_submitted"
+    },
+    {
+      "id": "email-1782473675537-5349",
+      "to": "admin@agentops.com",
+      "subject": "New Candidate Application: Bharath",
+      "body": "Onboarding application submitted by candidate: Bharath (bharathsathyasaijanga@gmail.com).\nSubmission Time: 2026-06-26 17:04:35\nStatus: PENDING ADMIN REVIEW.",
+      "sentAt": "2026-06-26T11:34:35.538173Z",
+      "type": "app_submitted"
+    },
+    {
+      "id": "email-1781699405330-2112",
+      "to": "admin@agentops.com",
+      "subject": "New Candidate Application: king",
+      "body": "Onboarding application submitted by candidate: king (king@gmail.com).\nSubmission Time: 2026-06-17 18:00:05\nStatus: PENDING ADMIN REVIEW.",
+      "sentAt": "2026-06-17T12:30:05.330507Z",
+      "type": "app_submitted"
+    },
+    {
+      "id": "email-1781699299535-1534",
+      "to": "king@gmail.com",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "body": "Welcome king! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: king@gmail.com\nPassword: King@123\n\nPlease update your password on your first login.",
+      "sentAt": "2026-06-17T12:28:19.535414Z",
+      "type": "welcome"
+    },
+    {
+      "id": "email-1781698169084-7699",
+      "to": "admin@agentops.com",
+      "subject": "New Candidate Application: shriya",
+      "body": "Onboarding application submitted by candidate: shriya (shriyachary0810@gmail.com).\nSubmission Time: 2026-06-17 17:39:29\nStatus: PENDING ADMIN REVIEW.",
+      "sentAt": "2026-06-17T12:09:29.084923Z",
+      "type": "app_submitted"
+    },
+    {
+      "id": "email-1781693535182-9856",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: shriya - Enterprise Security & Compliance Quiz",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: Enterprise Security & Compliance Quiz\nScore: 100%\nPassing Score: 100%\nResult: PASSED",
+      "sentAt": "2026-06-17T10:52:15.182099Z",
+      "type": "pass"
+    },
+    {
+      "id": "email-1781693534885-1117",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "CONGRATULATIONS: You Passed Your Assessment [Enterprise Security & Compliance Quiz]",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: Enterprise Security & Compliance Quiz\nScore: 100%\nPassing Score: 100%\nResult: PASSED",
+      "sentAt": "2026-06-17T10:52:14.885406Z",
+      "type": "pass"
+    },
+    {
+      "id": "email-1781693486972-8434",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "EXAM ASSIGNED: Enterprise Security & Compliance Quiz",
+      "body": "Dear shriya,\nA new skills assessment test [Enterprise Security & Compliance Quiz] has been assigned to you. You have 10 minutes to complete it.\nPlease complete this assessment to advance your onboarding workflow.",
+      "sentAt": "2026-06-17T10:51:26.972383Z",
+      "type": "test_assigned"
+    },
+    {
+      "id": "email-1781693442597-3598",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: shriya - Enterprise Security & Compliance Quiz",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: Enterprise Security & Compliance Quiz\nScore: 50%\nPassing Score: 100%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:50:42.597088Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781693442344-6223",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "ATTENTION: Assessment Retake Notification [Enterprise Security & Compliance Quiz]",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: Enterprise Security & Compliance Quiz\nScore: 50%\nPassing Score: 100%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:50:42.344494Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781693406998-2513",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "EXAM ASSIGNED: Enterprise Security & Compliance Quiz",
+      "body": "Dear shriya,\nA new skills assessment test [Enterprise Security & Compliance Quiz] has been assigned to you. You have 10 minutes to complete it.\nPlease complete this assessment to advance your onboarding workflow.",
+      "sentAt": "2026-06-17T10:50:06.998082Z",
+      "type": "test_assigned"
+    },
+    {
+      "id": "email-1781693276199-7977",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: shriya - Enterprise Security & Compliance Quiz",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: Enterprise Security & Compliance Quiz\nScore: 100%\nPassing Score: 100%\nResult: PASSED",
+      "sentAt": "2026-06-17T10:47:56.199932Z",
+      "type": "pass"
+    },
+    {
+      "id": "email-1781693275921-8007",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "CONGRATULATIONS: You Passed Your Assessment [Enterprise Security & Compliance Quiz]",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: Enterprise Security & Compliance Quiz\nScore: 100%\nPassing Score: 100%\nResult: PASSED",
+      "sentAt": "2026-06-17T10:47:55.921076Z",
+      "type": "pass"
+    },
+    {
+      "id": "email-1781693128536-6603",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "EXAM ASSIGNED: Enterprise Security & Compliance Quiz",
+      "body": "Dear shriya,\nA new skills assessment test [Enterprise Security & Compliance Quiz] has been assigned to you. You have 10 minutes to complete it.\nPlease complete this assessment to advance your onboarding workflow.",
+      "sentAt": "2026-06-17T10:45:28.536733Z",
+      "type": "test_assigned"
+    },
+    {
+      "id": "email-1781692910360-9346",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: shriya - Enterprise Security & Compliance Quiz",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: Enterprise Security & Compliance Quiz\nScore: 0%\nPassing Score: 100%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:41:50.360013Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781692910102-6193",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "ATTENTION: Assessment Retake Notification [Enterprise Security & Compliance Quiz]",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: Enterprise Security & Compliance Quiz\nScore: 0%\nPassing Score: 100%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:41:50.102939Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781692889007-4516",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "EXAM ASSIGNED: Enterprise Security & Compliance Quiz",
+      "body": "Dear shriya,\nA new skills assessment test [Enterprise Security & Compliance Quiz] has been assigned to you. You have 10 minutes to complete it.\nPlease complete this assessment to advance your onboarding workflow.",
+      "sentAt": "2026-06-17T10:41:29.007331Z",
+      "type": "test_assigned"
+    },
+    {
+      "id": "email-1781692861564-8728",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: shriya - Enterprise Security & Compliance Quiz",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: Enterprise Security & Compliance Quiz\nScore: 50%\nPassing Score: 100%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:41:01.564843Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781692861368-7010",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "ATTENTION: Assessment Retake Notification [Enterprise Security & Compliance Quiz]",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: Enterprise Security & Compliance Quiz\nScore: 50%\nPassing Score: 100%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:41:01.368960Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781692827954-9285",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "EXAM ASSIGNED: Enterprise Security & Compliance Quiz",
+      "body": "Dear shriya,\nA new skills assessment test [Enterprise Security & Compliance Quiz] has been assigned to you. You have 10 minutes to complete it.\nPlease complete this assessment to advance your onboarding workflow.",
+      "sentAt": "2026-06-17T10:40:27.954017Z",
+      "type": "test_assigned"
+    },
+    {
+      "id": "email-1781692806795-8289",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: shriya - Enterprise Security & Compliance Quiz",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: Enterprise Security & Compliance Quiz\nScore: 50%\nPassing Score: 100%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:40:06.795603Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781692806513-8407",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "ATTENTION: Assessment Retake Notification [Enterprise Security & Compliance Quiz]",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: Enterprise Security & Compliance Quiz\nScore: 50%\nPassing Score: 100%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:40:06.513864Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781692706036-3872",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "EXAM ASSIGNED: Enterprise Security & Compliance Quiz",
+      "body": "Dear shriya,\nA new skills assessment test [Enterprise Security & Compliance Quiz] has been assigned to you. You have 10 minutes to complete it.\nPlease complete this assessment to advance your onboarding workflow.",
+      "sentAt": "2026-06-17T10:38:26.036293Z",
+      "type": "test_assigned"
+    },
+    {
+      "id": "email-1781692685160-9440",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: shriya - Enterprise Security & Compliance Quiz",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: Enterprise Security & Compliance Quiz\nScore: 0%\nPassing Score: 100%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:38:05.160693Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781692684921-7465",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "ATTENTION: Assessment Retake Notification [Enterprise Security & Compliance Quiz]",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: Enterprise Security & Compliance Quiz\nScore: 0%\nPassing Score: 100%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:38:04.921470Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781692602855-3480",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "EXAM ASSIGNED: Enterprise Security & Compliance Quiz",
+      "body": "Dear shriya,\nA new skills assessment test [Enterprise Security & Compliance Quiz] has been assigned to you. You have 10 minutes to complete it.\nPlease complete this assessment to advance your onboarding workflow.",
+      "sentAt": "2026-06-17T10:36:42.855540Z",
+      "type": "test_assigned"
+    },
+    {
+      "id": "email-1781692258480-4513",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: shriya - test",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: test\nScore: 50%\nPassing Score: 70%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:30:58.480810Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781692258328-2222",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "ATTENTION: Assessment Retake Notification [test]",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: test\nScore: 50%\nPassing Score: 70%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:30:58.328834Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781692213619-8382",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: shriya - Enterprise Security & Compliance Quiz",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: Enterprise Security & Compliance Quiz\nScore: 0%\nPassing Score: 100%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:30:13.620501Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781692213430-9240",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "ATTENTION: Assessment Retake Notification [Enterprise Security & Compliance Quiz]",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: Enterprise Security & Compliance Quiz\nScore: 0%\nPassing Score: 100%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:30:13.430355Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781692176896-7620",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "EXAM ASSIGNED: Enterprise Security & Compliance Quiz",
+      "body": "Dear shriya,\nA new skills assessment test [Enterprise Security & Compliance Quiz] has been assigned to you. You have 10 minutes to complete it.\nPlease complete this assessment to advance your onboarding workflow.",
+      "sentAt": "2026-06-17T10:29:36.896463Z",
+      "type": "test_assigned"
+    },
+    {
+      "id": "email-1781691877525-7249",
+      "to": "gopikrishna@gmail.com",
+      "subject": "EXAM ASSIGNED: test",
+      "body": "Dear gopi,\nA new skills assessment test [test] has been assigned to you. You have 15 minutes to complete it.\nPlease complete this assessment to advance your onboarding workflow.",
+      "sentAt": "2026-06-17T10:24:37.525303Z",
+      "type": "test_assigned"
+    },
+    {
+      "id": "email-1781691826641-9296",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: gopi - test",
+      "body": "Assessment Result Notice:\nEmployee: gopi\nTest: test\nScore: 12%\nPassing Score: 70%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:23:46.641051Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781691826474-5405",
+      "to": "gopikrishna@gmail.com",
+      "subject": "ATTENTION: Assessment Retake Notification [test]",
+      "body": "Assessment Result Notice:\nEmployee: gopi\nTest: test\nScore: 12%\nPassing Score: 70%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:23:46.474904Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781691799888-4205",
+      "to": "gopikrishna@gmail.com",
+      "subject": "EXAM ASSIGNED: test",
+      "body": "Dear gopi,\nA new skills assessment test [test] has been assigned to you. You have 15 minutes to complete it.\nPlease complete this assessment to advance your onboarding workflow.",
+      "sentAt": "2026-06-17T10:23:19.888135Z",
+      "type": "test_assigned"
+    },
+    {
+      "id": "email-1781691771652-6358",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: gopi - Enterprise Security & Compliance Quiz",
+      "body": "Assessment Result Notice:\nEmployee: gopi\nTest: Enterprise Security & Compliance Quiz\nScore: 0%\nPassing Score: 100%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:22:51.652059Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781691771464-6434",
+      "to": "gopikrishna@gmail.com",
+      "subject": "ATTENTION: Assessment Retake Notification [Enterprise Security & Compliance Quiz]",
+      "body": "Assessment Result Notice:\nEmployee: gopi\nTest: Enterprise Security & Compliance Quiz\nScore: 0%\nPassing Score: 100%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:22:51.464428Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781691693591-8365",
+      "to": "admin@agentops.com",
+      "subject": "New Candidate Application: gopi",
+      "body": "Onboarding application submitted by candidate: gopi (gopikrishna@gmail.com).\nSubmission Time: 2026-06-17 15:51:33\nStatus: PENDING ADMIN REVIEW.",
+      "sentAt": "2026-06-17T10:21:33.591948Z",
+      "type": "app_submitted"
+    },
+    {
+      "id": "email-1781691543249-9891",
+      "to": "gopikrishna@gmail.com",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "body": "Welcome gopi! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: gopikrishna@gmail.com\nPassword: gopi@123\n\nPlease update your password on your first login.",
+      "sentAt": "2026-06-17T10:19:03.249557Z",
+      "type": "welcome"
+    },
+    {
+      "id": "email-1781691383118-7092",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: shriya - Enterprise Security & Compliance Quiz",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: Enterprise Security & Compliance Quiz\nScore: 50%\nPassing Score: 100%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:16:23.118378Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781691382948-2383",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "ATTENTION: Assessment Retake Notification [Enterprise Security & Compliance Quiz]",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: Enterprise Security & Compliance Quiz\nScore: 50%\nPassing Score: 100%\nResult: FAILED",
+      "sentAt": "2026-06-17T10:16:22.948430Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781688775981-6837",
+      "to": "admin@agentops.com",
+      "subject": "New Candidate Application: shriya",
+      "body": "Onboarding application submitted by candidate: shriya (shriyachary@gmail.com).\nSubmission Time: 2026-06-17 15:02:55\nStatus: PENDING ADMIN REVIEW.",
+      "sentAt": "2026-06-17T09:32:55.981717Z",
+      "type": "app_submitted"
+    },
+    {
+      "id": "email-1781688625439-3900",
+      "to": "shriyachary@gmail.com",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary@gmail.com\nPassword: shriya@789\n\nPlease update your password on your first login.",
+      "sentAt": "2026-06-17T09:30:25.439809Z",
+      "type": "welcome"
+    },
+    {
+      "id": "email-1781686652638-2348",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: shriya - AgentOps Core React & Node Assessment",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: AgentOps Core React & Node Assessment\nScore: 0%\nPassing Score: 70%\nResult: FAILED",
+      "sentAt": "2026-06-17T08:57:32.638446Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781686652515-7266",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "ATTENTION: Assessment Retake Notification [AgentOps Core React & Node Assessment]",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: AgentOps Core React & Node Assessment\nScore: 0%\nPassing Score: 70%\nResult: FAILED",
+      "sentAt": "2026-06-17T08:57:32.515691Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781686629898-2780",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "EXAM ASSIGNED: AgentOps Core React & Node Assessment",
+      "body": "Dear shriya,\nA new skills assessment test [AgentOps Core React & Node Assessment] has been assigned to you. You have 15 minutes to complete it.\nPlease complete this assessment to advance your onboarding workflow.",
+      "sentAt": "2026-06-17T08:57:09.898902Z",
+      "type": "test_assigned"
+    },
+    {
+      "id": "email-1781686594746-6889",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: shriya - AgentOps Core React & Node Assessment",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: AgentOps Core React & Node Assessment\nScore: 0%\nPassing Score: 70%\nResult: FAILED",
+      "sentAt": "2026-06-17T08:56:34.746608Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781686594647-4026",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "ATTENTION: Assessment Retake Notification [AgentOps Core React & Node Assessment]",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: AgentOps Core React & Node Assessment\nScore: 0%\nPassing Score: 70%\nResult: FAILED",
+      "sentAt": "2026-06-17T08:56:34.647717Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781686307434-5966",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "EXAM ASSIGNED: AgentOps Core React & Node Assessment",
+      "body": "Dear shriya,\nA new skills assessment test [AgentOps Core React & Node Assessment] has been assigned to you. You have 15 minutes to complete it.\nPlease complete this assessment to advance your onboarding workflow.",
+      "sentAt": "2026-06-17T08:51:47.434071Z",
+      "type": "test_assigned"
+    },
+    {
+      "id": "email-1781686279422-7612",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: shriya - AgentOps Core React & Node Assessment",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: AgentOps Core React & Node Assessment\nScore: 50%\nPassing Score: 70%\nResult: FAILED",
+      "sentAt": "2026-06-17T08:51:19.422138Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781686279187-2323",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "ATTENTION: Assessment Retake Notification [AgentOps Core React & Node Assessment]",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: AgentOps Core React & Node Assessment\nScore: 50%\nPassing Score: 70%\nResult: FAILED",
+      "sentAt": "2026-06-17T08:51:19.187821Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781686259518-2813",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "EXAM ASSIGNED: AgentOps Core React & Node Assessment",
+      "body": "Dear shriya,\nA new skills assessment test [AgentOps Core React & Node Assessment] has been assigned to you. You have 15 minutes to complete it.\nPlease complete this assessment to advance your onboarding workflow.",
+      "sentAt": "2026-06-17T08:50:59.518525Z",
+      "type": "test_assigned"
+    },
+    {
+      "id": "email-1781686049998-8549",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: shriya - AgentOps Core React & Node Assessment",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: AgentOps Core React & Node Assessment\nScore: 0%\nPassing Score: 70%\nResult: FAILED",
+      "sentAt": "2026-06-17T08:47:29.998183Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781686049853-4900",
+      "to": "shriya08@gmail.com",
+      "subject": "ATTENTION: Assessment Retake Notification [AgentOps Core React & Node Assessment]",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: AgentOps Core React & Node Assessment\nScore: 0%\nPassing Score: 70%\nResult: FAILED",
+      "sentAt": "2026-06-17T08:47:29.853439Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781685571502-5214",
+      "to": "admin@agentops.com",
+      "subject": "New Candidate Application: shriya",
+      "body": "Onboarding application submitted by candidate: shriya (shriya08@gmail.com).\nSubmission Time: 2026-06-17 14:09:31\nStatus: PENDING ADMIN REVIEW.",
+      "sentAt": "2026-06-17T08:39:31.502653Z",
+      "type": "app_submitted"
+    },
+    {
+      "id": "email-1781685362465-1910",
+      "to": "shriya08@gmail.com",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriya08@gmail.com\nPassword: Shriya@08\n\nPlease update your password on your first login.",
+      "sentAt": "2026-06-17T08:36:02.465818Z",
+      "type": "welcome"
+    },
+    {
+      "id": "email-1781685313772-1534",
+      "to": "shriyachary08@gmail.com",
+      "subject": "EXAM ASSIGNED: AgentOps Core React & Node Assessment",
+      "body": "Dear shriya,\nA new skills assessment test [AgentOps Core React & Node Assessment] has been assigned to you. You have 15 minutes to complete it.\nPlease complete this assessment to advance your onboarding workflow.",
+      "sentAt": "2026-06-17T08:35:13.772358Z",
+      "type": "test_assigned"
+    },
+    {
+      "id": "email-1781685167534-9166",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: shriya - AgentOps Core React & Node Assessment",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: AgentOps Core React & Node Assessment\nScore: 100%\nPassing Score: 70%\nResult: PASSED",
+      "sentAt": "2026-06-17T08:32:47.534729Z",
+      "type": "pass"
+    },
+    {
+      "id": "email-1781685167440-8484",
+      "to": "shriyachary08@gmail.com",
+      "subject": "CONGRATULATIONS: You Passed Your Assessment [AgentOps Core React & Node Assessment]",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: AgentOps Core React & Node Assessment\nScore: 100%\nPassing Score: 70%\nResult: PASSED",
+      "sentAt": "2026-06-17T08:32:47.440451Z",
+      "type": "pass"
+    },
+    {
+      "id": "email-1781683019391-8665",
+      "to": "shriyachary08@gmail.com",
+      "subject": "EXAM ASSIGNED: AgentOps Core React & Node Assessment",
+      "body": "Dear shriya,\nA new skills assessment test [AgentOps Core React & Node Assessment] has been assigned to you. You have 15 minutes to complete it.\nPlease complete this assessment to advance your onboarding workflow.",
+      "sentAt": "2026-06-17T07:56:59.392079Z",
+      "type": "test_assigned"
+    },
+    {
+      "id": "email-1781680470367-3182",
+      "to": "admin@agentops.com",
+      "subject": "New Candidate Application: shriya",
+      "body": "Onboarding application submitted by candidate: shriya (shriyachary08@gmail.com).\nSubmission Time: 2026-06-17 12:44:30\nStatus: PENDING ADMIN REVIEW.",
+      "sentAt": "2026-06-17T07:14:30.367375Z",
+      "type": "app_submitted"
+    },
+    {
+      "id": "email-1781680389573-7891",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: shriya - AgentOps Core React & Node Assessment",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: AgentOps Core React & Node Assessment\nScore: 0%\nPassing Score: 70%\nResult: FAILED",
+      "sentAt": "2026-06-17T07:13:09.573134Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781680389486-5631",
+      "to": "shriyachary08@gmail.com",
+      "subject": "ATTENTION: Assessment Retake Notification [AgentOps Core React & Node Assessment]",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: AgentOps Core React & Node Assessment\nScore: 0%\nPassing Score: 70%\nResult: FAILED",
+      "sentAt": "2026-06-17T07:13:09.486923Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781679255368-5968",
+      "to": "admin@agentops.com",
+      "subject": "New Candidate Application: shriya",
+      "body": "Onboarding application submitted by candidate: shriya (shriyachary08@gmail.com).\nSubmission Time: 2026-06-17 12:24:15\nStatus: PENDING ADMIN REVIEW.",
+      "sentAt": "2026-06-17T06:54:15.368656Z",
+      "type": "app_submitted"
+    },
+    {
+      "id": "email-1781679186491-2901",
+      "to": "shriyachary08@gmail.com",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary08@gmail.com\nPassword: Shriya@21\n\nPlease update your password on your first login.",
+      "sentAt": "2026-06-17T06:53:06.491331Z",
+      "type": "welcome"
+    },
+    {
+      "id": "email-1781677399080-1308",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: bharath - AgentOps Core React & Node Assessment",
+      "body": "Assessment Result Notice:\nEmployee: bharath\nTest: AgentOps Core React & Node Assessment\nScore: 25%\nPassing Score: 70%\nResult: FAILED",
+      "sentAt": "2026-06-17T06:23:19.080271Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781677398950-3420",
+      "to": "bharathjanga@gmail.com",
+      "subject": "ATTENTION: Assessment Retake Notification [AgentOps Core React & Node Assessment]",
+      "body": "Assessment Result Notice:\nEmployee: bharath\nTest: AgentOps Core React & Node Assessment\nScore: 25%\nPassing Score: 70%\nResult: FAILED",
+      "sentAt": "2026-06-17T06:23:18.950744Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781677361199-2559",
+      "to": "admin@agentops.com",
+      "subject": "New Candidate Application: bharath",
+      "body": "Onboarding application submitted by candidate: bharath (bharathjanga@gmail.com).\nSubmission Time: 2026-06-17 11:52:41\nStatus: PENDING ADMIN REVIEW.",
+      "sentAt": "2026-06-17T06:22:41.199629Z",
+      "type": "app_submitted"
+    },
+    {
+      "id": "email-1781677214465-7576",
+      "to": "bharathjanga@gmail.com",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "body": "Welcome bharath! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: bharathjanga@gmail.com\nPassword: Bharath@123\n\nPlease update your password on your first login.",
+      "sentAt": "2026-06-17T06:20:14.465784Z",
+      "type": "welcome"
+    },
+    {
+      "id": "email-1781676381926-7945",
+      "to": "admin@agentops.com",
+      "subject": "Assessment Results: shriya - AgentOps Core React & Node Assessment",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: AgentOps Core React & Node Assessment\nScore: 25%\nPassing Score: 70%\nResult: FAILED",
+      "sentAt": "2026-06-17T06:06:21.927185Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781676381807-8463",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "ATTENTION: Assessment Retake Notification [AgentOps Core React & Node Assessment]",
+      "body": "Assessment Result Notice:\nEmployee: shriya\nTest: AgentOps Core React & Node Assessment\nScore: 25%\nPassing Score: 70%\nResult: FAILED",
+      "sentAt": "2026-06-17T06:06:21.807529Z",
+      "type": "fail"
+    },
+    {
+      "id": "email-1781676175370-5110",
+      "to": "testemployee@gmail.com",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "body": "Welcome Test Employee! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: testemployee@gmail.com\nPassword: Password@123\n\nPlease update your password on your first login.",
+      "sentAt": "2026-06-17T06:02:55.370624Z",
+      "type": "welcome"
+    },
+    {
+      "id": "email-1781675343624-2854",
+      "to": "admin@agentops.com",
+      "subject": "New Candidate Application: shriya",
+      "body": "Onboarding application submitted by candidate: shriya (shriyachary0810@gmail.com).\nSubmission Time: 2026-06-17 11:19:03\nStatus: PENDING ADMIN REVIEW.",
+      "sentAt": "2026-06-17T05:49:03.624839Z",
+      "type": "app_submitted"
+    },
+    {
+      "body": "Welcome Bharath! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: bharathsathyasaijanga@gmail.com\nPassword: Bharath@767\n\nPlease update your password on your first login.",
+      "type": "welcome",
+      "sentAt": "2026-06-12T09:19:46.377303Z",
+      "id": "email-1",
+      "to": "bharathsathyasaijanga@gmail.com",
+      "subject": "Welcome to AgentOps Labs!"
+    },
+    {
+      "to": "bharathsathyasaijanga@gmail.com",
+      "id": "email-1781256877481-3352",
+      "subject": "EXAM ASSIGNED: test",
+      "sentAt": "2026-06-12T09:34:37.482833Z",
+      "type": "test_assigned",
+      "body": "Dear Bharath,\nA new skills assessment test [test] has been assigned to you. You have 15 minutes to complete it.\nPlease complete this assessment to advance your onboarding workflow."
+    },
+    {
+      "to": "admin@agentops.com",
+      "id": "email-1781256895839-3802",
+      "subject": "New Candidate Application: Bharath",
+      "sentAt": "2026-06-12T09:34:55.839657Z",
+      "type": "app_submitted",
+      "body": "Onboarding application submitted by candidate: Bharath (bharathsathyasaijanga@gmail.com).\nSubmission Time: 2026-06-12 15:04:55\nStatus: PENDING ADMIN REVIEW."
+    },
+    {
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login.",
+      "type": "welcome",
+      "sentAt": "2026-06-12T11:41:51.481983Z",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "id": "email-1781264511481-9511",
+      "to": "shriyachary0810@gmail.com"
+    },
+    {
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login.",
+      "type": "welcome",
+      "sentAt": "2026-06-12T11:41:52.035396Z",
+      "to": "shriyachary0810@gmail.com",
+      "id": "email-1781264512035-5553",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password"
+    },
+    {
+      "type": "welcome",
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login.",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "to": "shriyachary0810@gmail.com",
+      "id": "email-1781264512133-3093",
+      "sentAt": "2026-06-12T11:41:52.133481Z"
+    },
+    {
+      "type": "welcome",
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login.",
+      "id": "email-1781264513317-8602",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "sentAt": "2026-06-12T11:41:53.317555Z"
+    },
+    {
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login.",
+      "type": "welcome",
+      "sentAt": "2026-06-12T11:41:53.398364Z",
+      "id": "email-1781264513398-5589",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password"
+    },
+    {
+      "type": "welcome",
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login.",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "id": "email-1781264515077-5458",
+      "to": "shriyachary0810@gmail.com",
+      "sentAt": "2026-06-12T11:41:55.077139Z"
+    },
+    {
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login.",
+      "type": "welcome",
+      "sentAt": "2026-06-12T11:41:55.770385Z",
+      "id": "email-1781264515770-3581",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password"
+    },
+    {
+      "type": "welcome",
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login.",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "id": "email-1781264517435-4927",
+      "to": "shriyachary0810@gmail.com",
+      "sentAt": "2026-06-12T11:41:57.435180Z"
+    },
+    {
+      "sentAt": "2026-06-12T11:41:58.615848Z",
+      "id": "email-1781264518615-1301",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login.",
+      "type": "welcome"
+    },
+    {
+      "type": "welcome",
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login.",
+      "id": "email-1781264525308-2928",
+      "to": "shriyachary0810@gmail.com",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "sentAt": "2026-06-12T11:42:05.308841Z"
+    },
+    {
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "id": "email-1781264526306-2427",
+      "to": "shriyachary0810@gmail.com",
+      "sentAt": "2026-06-12T11:42:06.306626Z",
+      "type": "welcome",
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login."
+    },
+    {
+      "type": "welcome",
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login.",
+      "to": "shriyachary0810@gmail.com",
+      "id": "email-1781264528071-2999",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "sentAt": "2026-06-12T11:42:08.071627Z"
+    },
+    {
+      "sentAt": "2026-06-12T11:42:09.321718Z",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "to": "shriyachary0810@gmail.com",
+      "id": "email-1781264529321-6525",
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login.",
+      "type": "welcome"
+    },
+    {
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login.",
+      "type": "welcome",
+      "sentAt": "2026-06-12T11:42:11.229485Z",
+      "to": "shriyachary0810@gmail.com",
+      "id": "email-1781264531229-4515",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password"
+    },
+    {
+      "sentAt": "2026-06-12T11:42:11.792475Z",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "to": "shriyachary0810@gmail.com",
+      "id": "email-1781264531792-7898",
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login.",
+      "type": "welcome"
+    },
+    {
+      "type": "welcome",
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login.",
+      "to": "shriyachary0810@gmail.com",
+      "id": "email-1781264533206-6329",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "sentAt": "2026-06-12T11:42:13.206599Z"
+    },
+    {
+      "sentAt": "2026-06-12T11:42:13.586373Z",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "id": "email-1781264533586-4495",
+      "to": "shriyachary0810@gmail.com",
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login.",
+      "type": "welcome"
+    },
+    {
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "to": "shriyachary0810@gmail.com",
+      "id": "email-1781264535447-9344",
+      "sentAt": "2026-06-12T11:42:15.447162Z",
+      "type": "welcome",
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login."
+    },
+    {
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "id": "email-1781264536742-6601",
+      "to": "shriyachary0810@gmail.com",
+      "sentAt": "2026-06-12T11:42:16.742982Z",
+      "type": "welcome",
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login."
+    },
+    {
+      "type": "welcome",
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login.",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password",
+      "to": "shriyachary0810@gmail.com",
+      "id": "email-1781264538596-4469",
+      "sentAt": "2026-06-12T11:42:18.596189Z"
+    },
+    {
+      "body": "Welcome shriya! Your AgentOps Labs onboarding portal account has been created.\n\nLogin credentials:\nEmail: shriyachary0810@gmail.com\nPassword: Shriya@123\n\nPlease update your password on your first login.",
+      "type": "welcome",
+      "sentAt": "2026-06-12T11:42:21.876443Z",
+      "to": "shriyachary0810@gmail.com",
+      "id": "email-1781264541876-1410",
+      "subject": "Welcome to AgentOps Labs - Temporary Account Password"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1782473995355-37776",
+      "employeeId": "emp-1",
+      "title": "Test Assigned",
+      "message": "You have been assigned the default onboarding test: test",
+      "isRead": false,
+      "createdAt": "2026-06-26T11:39:55.355615Z",
+      "type": "alert"
+    },
+    {
+      "id": "notif-1782473995319-20974",
+      "employeeId": null,
+      "title": "New Application Submitted",
+      "message": "Onboarding application profile submitted by Bharath. Complete reviews.",
+      "isRead": false,
+      "createdAt": "2026-06-26T11:39:55.320210Z",
+      "type": "warning"
+    },
+    {
+      "id": "notif-1782473972607-77086",
+      "employeeId": "emp-1",
+      "title": "Test Assigned",
+      "message": "You have been assigned the default onboarding test: test",
+      "isRead": false,
+      "createdAt": "2026-06-26T11:39:32.607570Z",
+      "type": "alert"
+    },
+    {
+      "id": "notif-1782473972581-34608",
+      "employeeId": null,
+      "title": "New Application Submitted",
+      "message": "Onboarding application profile submitted by Bharath. Complete reviews.",
+      "isRead": false,
+      "createdAt": "2026-06-26T11:39:32.581294Z",
+      "type": "warning"
+    },
+    {
+      "id": "notif-1782473675601-43491",
+      "employeeId": "emp-1",
+      "title": "Test Assigned",
+      "message": "You have been assigned the default onboarding test: test",
+      "isRead": false,
+      "createdAt": "2026-06-26T11:34:35.601306Z",
+      "type": "alert"
+    },
+    {
+      "id": "notif-1782473675533-71824",
+      "employeeId": null,
+      "title": "New Application Submitted",
+      "message": "Onboarding application profile submitted by Bharath. Complete reviews.",
+      "isRead": false,
+      "createdAt": "2026-06-26T11:34:35.533697Z",
+      "type": "warning"
+    },
+    {
+      "id": "notif-1782473664816-36361",
+      "employeeId": null,
+      "title": "Attendance Approval Requested",
+      "message": "Employee Bharath requested attendance approval for 2026-06-26.",
+      "isRead": false,
+      "createdAt": "2026-06-26T11:34:24.826451Z",
+      "type": "info"
+    },
+    {
+      "id": "notif-1781699405237-94557",
+      "employeeId": null,
+      "title": "New Application Submitted",
+      "message": "Onboarding application profile submitted by king. Complete reviews.",
+      "isRead": false,
+      "createdAt": "2026-06-17T12:30:05.237772Z",
+      "type": "warning"
+    },
+    {
+      "id": "notif-1781698169176-28363",
+      "employeeId": "emp-1781264493152",
+      "title": "Test Assigned",
+      "message": "You have been assigned the default onboarding test: test",
+      "isRead": false,
+      "createdAt": "2026-06-17T12:09:29.176803Z",
+      "type": "alert"
+    },
+    {
+      "id": "notif-1781698168990-39566",
+      "employeeId": null,
+      "title": "New Application Submitted",
+      "message": "Onboarding application profile submitted by shriya. Complete reviews.",
+      "isRead": false,
+      "createdAt": "2026-06-17T12:09:28.990020Z",
+      "type": "warning"
+    },
+    {
+      "id": "notif-1781693535041-27558",
+      "employeeId": "emp-1781264493152",
+      "title": "Congratulations! Test Passed",
+      "message": "Your score on Enterprise Security & Compliance Quiz is 100% (Required: 100%).",
+      "isRead": false,
+      "createdAt": "2026-06-17T10:52:15.041588Z",
+      "type": "success"
+    },
+    {
+      "id": "notif-1781693487066-59113",
+      "employeeId": "emp-1781264493152",
+      "title": "New Assessment Assigned",
+      "message": "Admin assigned standard certification exam: \"Enterprise Security & Compliance Quiz\". Start assessment when ready.",
+      "isRead": false,
+      "createdAt": "2026-06-17T10:51:27.066076Z",
+      "type": "warning"
+    },
+    {
+      "id": "notif-1781693442444-15303",
+      "employeeId": "emp-1781264493152",
+      "title": "Quiz Finished (Fail Threshold)",
+      "message": "Your score on Enterprise Security & Compliance Quiz is 50% (Required: 100%).",
+      "isRead": false,
+      "createdAt": "2026-06-17T10:50:42.444134Z",
+      "type": "alert"
+    },
+    {
+      "id": "notif-1781691877598-95551",
+      "employeeId": "emp-1781691543246",
+      "title": "New Assessment Assigned",
+      "message": "Admin assigned standard certification exam: \"test\". Start assessment when ready.",
+      "isRead": false,
+      "createdAt": "2026-06-17T10:24:37.598125Z",
+      "type": "warning"
+    },
+    {
+      "id": "notif-1781691826548-97010",
+      "employeeId": "emp-1781691543246",
+      "title": "Quiz Finished (Fail Threshold)",
+      "message": "Your score on test is 12% (Required: 70%).",
+      "isRead": false,
+      "createdAt": "2026-06-17T10:23:46.548014Z",
+      "type": "alert"
+    },
+    {
+      "id": "notif-1781691799956-72612",
+      "employeeId": "emp-1781691543246",
+      "title": "New Assessment Assigned",
+      "message": "Admin assigned standard certification exam: \"test\". Start assessment when ready.",
+      "isRead": false,
+      "createdAt": "2026-06-17T10:23:19.956086Z",
+      "type": "warning"
+    },
+    {
+      "id": "notif-1781691771569-50272",
+      "employeeId": "emp-1781691543246",
+      "title": "Quiz Finished (Fail Threshold)",
+      "message": "Your score on Enterprise Security & Compliance Quiz is 0% (Required: 100%).",
+      "isRead": false,
+      "createdAt": "2026-06-17T10:22:51.569457Z",
+      "type": "alert"
+    },
+    {
+      "id": "notif-1781691693653-36816",
+      "employeeId": "emp-1781691543246",
+      "title": "Test Assigned",
+      "message": "You have been assigned the default onboarding test: Enterprise Security & Compliance Quiz",
+      "isRead": false,
+      "createdAt": "2026-06-17T10:21:33.653297Z",
+      "type": "alert"
+    },
+    {
+      "id": "notif-1781691543250-66445",
+      "employeeId": "emp-1781691543246",
+      "title": "Onboarding Setup Launched",
+      "message": "Welcome! Please enter your dashboard, fill your Onboarding application description, and upload credentials.",
+      "isRead": false,
+      "createdAt": "2026-06-17T10:19:03.250557Z",
+      "type": "info"
+    },
+    {
+      "id": "notif-1781688625441-88128",
+      "employeeId": "emp-1781688625438",
+      "title": "Onboarding Setup Launched",
+      "message": "Welcome! Please enter your dashboard, fill your Onboarding application description, and upload credentials.",
+      "isRead": false,
+      "createdAt": "2026-06-17T09:30:25.441289Z",
+      "type": "info"
+    },
+    {
+      "id": "notif-1781686049926-54838",
+      "employeeId": "emp-1781685362464",
+      "title": "Quiz Finished (Fail Threshold)",
+      "message": "Your score on AgentOps Core React & Node Assessment is 0% (Required: 70%).",
+      "isRead": false,
+      "createdAt": "2026-06-17T08:47:29.926632Z",
+      "type": "alert"
+    },
+    {
+      "id": "notif-1781685362466-53584",
+      "employeeId": "emp-1781685362464",
+      "title": "Onboarding Setup Launched",
+      "message": "Welcome! Please enter your dashboard, fill your Onboarding application description, and upload credentials.",
+      "isRead": false,
+      "createdAt": "2026-06-17T08:36:02.466840Z",
+      "type": "info"
+    },
+    {
+      "id": "notif-1781685313806-83681",
+      "employeeId": "emp-1781679186490",
+      "title": "New Assessment Assigned",
+      "message": "Admin assigned standard certification exam: \"AgentOps Core React & Node Assessment\". Start assessment when ready.",
+      "isRead": false,
+      "createdAt": "2026-06-17T08:35:13.806330Z",
+      "type": "warning"
+    },
+    {
+      "id": "notif-1781685167489-29293",
+      "employeeId": "emp-1781679186490",
+      "title": "Congratulations! Test Passed",
+      "message": "Your score on AgentOps Core React & Node Assessment is 100% (Required: 70%).",
+      "isRead": false,
+      "createdAt": "2026-06-17T08:32:47.489618Z",
+      "type": "success"
+    },
+    {
+      "id": "notif-1781679186491-18993",
+      "employeeId": "emp-1781679186490",
+      "title": "Onboarding Setup Launched",
+      "message": "Welcome! Please enter your dashboard, fill your Onboarding application description, and upload credentials.",
+      "isRead": false,
+      "createdAt": "2026-06-17T06:53:06.491913Z",
+      "type": "info"
+    },
+    {
+      "id": "notif-1781677399004-85499",
+      "employeeId": "emp-1781677214465",
+      "title": "Quiz Finished (Fail Threshold)",
+      "message": "Your score on AgentOps Core React & Node Assessment is 25% (Required: 70%).",
+      "isRead": false,
+      "createdAt": "2026-06-17T06:23:19.004989Z",
+      "type": "alert"
+    },
+    {
+      "id": "notif-1781677214467-51579",
+      "employeeId": "emp-1781677214465",
+      "title": "Onboarding Setup Launched",
+      "message": "Welcome! Please enter your dashboard, fill your Onboarding application description, and upload credentials.",
+      "isRead": false,
+      "createdAt": "2026-06-17T06:20:14.467295Z",
+      "type": "info"
+    },
+    {
+      "id": "notif-1781677071701-23655",
+      "employeeId": "emp-1",
+      "title": "Attendance Approved",
+      "message": "Your daily check-in for 2026-06-12 has been APPROVED by Admin.",
+      "isRead": false,
+      "createdAt": "2026-06-17T06:17:51.701199Z",
+      "type": "success"
+    },
+    {
+      "employeeId": "emp-1",
+      "type": "warning",
+      "id": "notif-1781256877489-42912",
+      "createdAt": "2026-06-12T09:34:37.490036Z",
+      "message": "Admin assigned standard certification exam: \"test\". Start assessment when ready.",
+      "isRead": false,
+      "title": "New Assessment Assigned"
+    },
+    {
+      "id": "notif-1781264590607-28676",
+      "message": "Admin sent you a new message: 'Python'",
+      "createdAt": "2026-06-12T11:43:10.607794Z",
+      "isRead": false,
+      "title": "New HR Message Received",
+      "employeeId": "emp-1",
+      "type": "info"
+    },
+    {
+      "isRead": false,
+      "title": "Attendance Approved",
+      "id": "notif-1781264879844-96329",
+      "createdAt": "2026-06-12T11:47:59.844743Z",
+      "message": "Your daily check-in for 2026-06-12 has been APPROVED by Admin.",
+      "employeeId": "emp-1",
+      "type": "success"
+    },
+    {
+      "id": "notif-1781264917549-85496",
+      "message": "Your daily check-in for 2026-06-12 has been APPROVED by Admin.",
+      "createdAt": "2026-06-12T11:48:37.549639Z",
+      "isRead": false,
+      "title": "Attendance Approved",
+      "employeeId": "emp-1",
+      "type": "success"
+    },
+    {
+      "isRead": false,
+      "title": "Attendance Approved",
+      "id": "notif-1781265093025-76372",
+      "createdAt": "2026-06-12T11:51:33.025689Z",
+      "message": "Your daily check-in for 2026-06-12 has been APPROVED by Admin.",
+      "employeeId": "emp-1",
+      "type": "success"
+    },
+    {
+      "employeeId": "emp-1",
+      "type": "success",
+      "title": "Attendance Approved",
+      "isRead": false,
+      "createdAt": "2026-06-12T12:09:54.785960Z",
+      "message": "Your daily check-in for 2026-06-12 has been APPROVED by Admin.",
+      "id": "notif-1781266194785-14773"
+    }
+  ],
+  "annotations": [],
+  "messages": [
+    {
+      "id": "bday-1day-emp-2-2026",
+      "senderId": "system",
+      "senderName": "System Alert",
+      "receiverId": "admin",
+      "subject": "🎂 Birthday Alert (1 Day Before): Rajesh Kumar",
+      "body": "Hello Admin, this is an automated alert that employee Rajesh Kumar (rajeshkumar@gmail.com) has their birthday tomorrow, on 06-18!",
+      "createdAt": "2026-06-17T05:28:34.085725Z",
+      "isRead": false,
+      "type": "birthday_alert"
+    }
+  ],
+  "tasks": [],
+  "taskSubmissions": [],
+  "attendance": [
+    {
+      "id": "att-1782473664808-30951",
+      "employeeId": "emp-1",
+      "employeeName": "Bharath",
+      "date": "2026-06-26",
+      "status": "pending",
+      "submittedAt": "2026-06-26T11:34:24.812358Z"
+    },
+    {
+      "id": "att-1781680495758-35627",
+      "employeeId": "emp-1781679186490",
+      "employeeName": "shriya",
+      "date": "2026-06-17",
+      "status": "approved",
+      "submittedAt": "2026-06-17T07:14:55.758575Z",
+      "remarks": "",
+      "approvedAt": "2026-06-17T07:17:29.923703Z"
+    },
+    {
+      "id": "att-1781257714768-82767",
+      "employeeId": "emp-1",
+      "employeeName": "Bharath",
+      "date": "2026-06-12",
+      "status": "approved",
+      "submittedAt": "2026-06-12T09:48:34.769800Z",
+      "remarks": "",
+      "approvedAt": "2026-06-17T06:17:51.701199Z"
+    }
+  ],
+  "leaves": [],
+  "settings": {
+    "defaultTestId": "test-1781256865335"
+  }
+}
