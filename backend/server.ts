@@ -189,18 +189,21 @@ app.get("/api/auth/me", async (req, res) => {
     return res.status(401).json({ detail: "Missing or invalid authorization token." });
   }
 
-  const rawToken = authHeader.substring(7);
+  const rawToken = authHeader.substring(7).trim();
   let userId = rawToken;
   if (rawToken.startsWith("simulated-jwt-for-")) {
     userId = rawToken.substring("simulated-jwt-for-".length);
   } else if (rawToken.startsWith("token-")) {
-    const parts = rawToken.split("-");
-    if (parts.length >= 3) {
-      userId = parts[1];
+    const lastDash = rawToken.lastIndexOf("-");
+    if (lastDash > 6) {
+      userId = rawToken.substring(6, lastDash);
+    } else {
+      userId = rawToken.substring(6);
     }
   }
 
-  const matchedUser = (db.users || []).find((u: any) => u.id === userId || rawToken.includes(u.id));
+  // Exact ID matching only to prevent emp-1 partial string matches on emp-178...
+  const matchedUser = (db.users || []).find((u: any) => u.id === userId);
   if (matchedUser) {
     return res.json(matchedUser);
   }
