@@ -1,0 +1,224 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "User profiles representing admins and employee candidates on the platform",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "mobile": { "type": "string" },
+        "role": { "type": "string", "enum": ["ADMIN", "EMPLOYEE"] },
+        "status": { "type": "string", "enum": ["PENDING_ONBOARDING", "ACTIVE", "INACTIVE"] },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "name", "email", "role", "status"]
+    },
+    "PasswordRecord": {
+      "title": "PasswordRecord",
+      "description": "Secure storage mapping for user passwords, indexed by userId",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "password": { "type": "string" }
+      },
+      "required": ["id", "password"]
+    },
+    "Application": {
+      "title": "Application",
+      "description": "Onboarding qualification form draft or submission",
+      "type": "object",
+      "properties": {
+        "employeeId": { "type": "string" },
+        "fullName": { "type": "string" },
+        "email": { "type": "string" },
+        "mobile": { "type": "string" },
+        "gender": { "type": "string" },
+        "highestQualification": { "type": "string" },
+        "collegeName": { "type": "string" },
+        "yearOfPassing": { "type": "string" },
+        "percentageOrCgpa": { "type": "string" },
+        "technicalSkills": { "type": "array" },
+        "otherSkills": { "type": "array" },
+        "status": { "type": "string", "enum": ["DRAFT", "PENDING", "APPROVED", "REJECTED"] },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["employeeId", "fullName", "email", "status"]
+    },
+    "EmployeeDocument": {
+      "title": "EmployeeDocument",
+      "description": "Uploaded credential and onboarding compliance documents",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "employeeId": { "type": "string" },
+        "docType": { "type": "string" },
+        "fileUrl": { "type": "string" },
+        "fileName": { "type": "string" },
+        "status": { "type": "string", "enum": ["PENDING", "APPROVED", "REJECTED"] },
+        "submittedAt": { "type": "string" },
+        "reviewedAt": { "type": "string" },
+        "reviewerId": { "type": "string" },
+        "remarks": { "type": "string" }
+      },
+      "required": ["id", "employeeId", "docType", "fileUrl", "status"]
+    },
+    "Test": {
+      "title": "Test",
+      "description": "Test assessment question sets and configurations",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "duration": { "type": "number" },
+        "passingMarks": { "type": "number" },
+        "isPublished": { "type": "boolean" },
+        "createdAt": { "type": "string" },
+        "questions": { "type": "array" }
+      },
+      "required": ["id", "name", "duration", "passingMarks", "isPublished"]
+    },
+    "AssignedTest": {
+      "title": "AssignedTest",
+      "description": "Assessments instance campaign assigned and completed by candidates",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "testId": { "type": "string" },
+        "testName": { "type": "string" },
+        "employeeId": { "type": "string" },
+        "status": { "type": "string", "enum": ["NOT_STARTED", "RUNNING", "PAUSED", "COMPLETED"] },
+        "score": { "type": "number" },
+        "passed": { "type": "boolean" },
+        "startedAt": { "type": "string" },
+        "pausedAt": { "type": "string" },
+        "pauseDuration": { "type": "number" },
+        "completedAt": { "type": "string" },
+        "responseSheet": { "type": "object" },
+        "timeRemaining": { "type": "number" }
+      },
+      "required": ["id", "testId", "testName", "employeeId", "status"]
+    },
+    "ChecklistItem": {
+      "title": "ChecklistItem",
+      "description": "Real-time candidate checklist task records",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "employeeId": { "type": "string" },
+        "category": { "type": "string" },
+        "text": { "type": "string" },
+        "isCompleted": { "type": "boolean" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["id", "employeeId", "category", "text", "isCompleted"]
+    },
+    "ActivityLog": {
+      "title": "ActivityLog",
+      "description": "Corporate compliance logs of candidate and HR actions",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "employeeId": { "type": "string" },
+        "employeeName": { "type": "string" },
+        "action": { "type": "string" },
+        "details": { "type": "string" },
+        "timestamp": { "type": "string" }
+      },
+      "required": ["id", "action", "timestamp"]
+    },
+    "EmailRecord": {
+      "title": "EmailRecord",
+      "description": "Dispatched email records inside simulated mailboxes",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "to": { "type": "string" },
+        "subject": { "type": "string" },
+        "body": { "type": "string" },
+        "sentAt": { "type": "string" },
+        "type": { "type": "string" }
+      },
+      "required": ["id", "to", "subject", "body", "sentAt"]
+    },
+    "SystemNotification": {
+      "title": "SystemNotification",
+      "description": "Candidate platform push notification items",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "employeeId": { "type": "string" },
+        "title": { "type": "string" },
+        "message": { "type": "string" },
+        "isRead": { "type": "boolean" },
+        "createdAt": { "type": "string" },
+        "type": { "type": "string" }
+      },
+      "required": ["id", "title", "message", "isRead", "createdAt"]
+    },
+    "DocumentAnnotation": {
+      "title": "DocumentAnnotation",
+      "description": "HR feedback overlay annotation pins on document viewports",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "documentId": { "type": "string" },
+        "text": { "type": "string" },
+        "x": { "type": "number" },
+        "y": { "type": "number" },
+        "width": { "type": "number" },
+        "height": { "type": "number" },
+        "authorName": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "documentId", "text", "x", "y"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "Collection of platform user roles and identity metadata"
+    },
+    "/passwords/{userId}": {
+      "schema": "PasswordRecord",
+      "description": "Mapping storage for candidate local login keys"
+    },
+    "/applications/{employeeId}": {
+      "schema": "Application",
+      "description": "Candidates formal qualifications application entries"
+    },
+    "/documents/{docId}": {
+      "schema": "EmployeeDocument",
+      "description": "Collection of loaded candidate and employee uploaded credential materials"
+    },
+    "/tests/{testId}": {
+      "schema": "Test",
+      "description": "Database core assessments test structures and question collections"
+    },
+    "/assignedTests/{assignedId}": {
+      "schema": "AssignedTest",
+      "description": "Candidate specific assigned evaluation and completed result instances"
+    },
+    "/checklists/{checklistId}": {
+      "schema": "ChecklistItem",
+      "description": "Onboarding check-steps tracked progress checklist items"
+    },
+    "/activityLogs/{logId}": {
+      "schema": "ActivityLog",
+      "description": "General system log activities"
+    },
+    "/emails/{emailId}": {
+      "schema": "EmailRecord",
+      "description": "Historic inbox system dispatched simulation emails"
+    },
+    "/notifications/{notifId}": {
+      "schema": "SystemNotification",
+      "description": "System dispatched toast-alerts and inbox messages"
+    },
+    "/annotations/{annotationId}": {
+      "schema": "DocumentAnnotation",
+      "description": "HR visual markers overlays associated with verification documents"
+    }
+  }
+}

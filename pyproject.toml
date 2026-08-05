@@ -1,0 +1,17 @@
+[project]
+name = "agentops-labs-onboarding-portal"
+version = "0.1.0"
+description = "AgentOps Onboarding Portal"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi>=0.100.0",
+    "uvicorn>=0.20.0",
+    "pydantic>=2.0",
+    "mammoth>=1.6.0",
+    "python-multipart>=0.0.6",
+    "requests>=2.28.0"
+]
+
+[tool.vercel]
+entrypoint = "backend.main:app"
