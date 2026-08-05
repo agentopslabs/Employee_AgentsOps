@@ -200,18 +200,122 @@ app.get("/api/applications/:empId", async (req, res) => {
   return res.json(appItem || { status: "not_started", employeeId: req.params.empId });
 });
 
+app.post("/api/applications", async (req, res) => {
+  await loadDatabaseFromFirestore(true);
+  const empId = req.body.employeeId || req.body.empId;
+  if (!empId) {
+    return res.status(400).json({ detail: "Employee ID is required." });
+  }
+
+  const appData = req.body;
+  const nowIso = new Date().toISOString();
+  const status = appData.status || "draft";
+
+  const payload: Record<string, any> = {
+    employeeId: empId,
+    fullName: appData.fullName || "",
+    email: appData.email || "",
+    mobile: appData.mobile || "",
+    gender: appData.gender || "",
+    highestQualification: appData.highestQualification || "",
+    collegeName: appData.collegeName || "",
+    yearOfPassing: appData.yearOfPassing || "",
+    percentageOrCgpa: appData.percentageOrCgpa || "",
+    technicalSkills: appData.technicalSkills || [],
+    otherSkills: appData.otherSkills || [],
+    status: status,
+    updatedAt: nowIso,
+    googleDriveLink: appData.googleDriveLink || "",
+    submittedDocs: appData.submittedDocs || []
+  };
+
+  if (status === "submitted") {
+    payload.submittedAt = nowIso;
+  }
+
+  const existingIdx = (db.applications || []).findIndex((a: any) => a.employeeId === empId);
+  if (existingIdx >= 0) {
+    db.applications[existingIdx] = { ...db.applications[existingIdx], ...payload };
+  } else {
+    db.applications.push(payload);
+  }
+
+  if (status === "submitted") {
+    // Update checklists for application category
+    (db.checklists || []).forEach((c: any) => {
+      if (c.employeeId === empId && c.category === "application") {
+        c.isCompleted = true;
+        c.updatedAt = nowIso;
+      }
+    });
+
+    // Ensure onboarding test is automatically assigned
+    const defaultTest = (db.tests || []).find((t: any) => t.isPublished) || (db.tests || [])[0];
+    if (defaultTest) {
+      const existingAssigned = (db.assignedTests || []).find((at: any) => at.employeeId === empId && at.testId === defaultTest.id);
+      if (!existingAssigned) {
+        db.assignedTests.push({
+          id: `at-${empId}-${defaultTest.id}`,
+          testId: defaultTest.id,
+          testName: defaultTest.name,
+          employeeId: empId,
+          status: "not_started",
+          totalQuestions: defaultTest.questions?.length || 0,
+          passingMarks: defaultTest.passingMarks || 70,
+          isDefaultOnboardingTest: true,
+          score: null,
+          passed: null,
+          remainingTime: (defaultTest.duration || 15) * 60,
+          startedAt: null,
+          completedAt: null
+        });
+      }
+    }
+  }
+
+  saveDbToDisk();
+  return res.json({ status: "success", application: payload });
+});
+
 app.post("/api/applications/:empId", async (req, res) => {
+  req.body.employeeId = req.params.empId;
   await loadDatabaseFromFirestore(true);
   const empId = req.params.empId;
   const appData = req.body;
+  const nowIso = new Date().toISOString();
+  const status = appData.status || "draft";
+
+  const payload: Record<string, any> = {
+    employeeId: empId,
+    fullName: appData.fullName || "",
+    email: appData.email || "",
+    mobile: appData.mobile || "",
+    gender: appData.gender || "",
+    highestQualification: appData.highestQualification || "",
+    collegeName: appData.collegeName || "",
+    yearOfPassing: appData.yearOfPassing || "",
+    percentageOrCgpa: appData.percentageOrCgpa || "",
+    technicalSkills: appData.technicalSkills || [],
+    otherSkills: appData.otherSkills || [],
+    status: status,
+    updatedAt: nowIso,
+    googleDriveLink: appData.googleDriveLink || "",
+    submittedDocs: appData.submittedDocs || []
+  };
+
+  if (status === "submitted") {
+    payload.submittedAt = nowIso;
+  }
+
   const existingIdx = (db.applications || []).findIndex((a: any) => a.employeeId === empId);
   if (existingIdx >= 0) {
-    db.applications[existingIdx] = { ...db.applications[existingIdx], ...appData, updatedAt: new Date().toISOString() };
+    db.applications[existingIdx] = { ...db.applications[existingIdx], ...payload };
   } else {
-    db.applications.push({ ...appData, employeeId: empId, updatedAt: new Date().toISOString() });
+    db.applications.push(payload);
   }
+
   saveDbToDisk();
-  return res.json({ status: "success", application: appData });
+  return res.json({ status: "success", application: payload });
 });
 
 app.get("/api/documents", async (req, res) => {

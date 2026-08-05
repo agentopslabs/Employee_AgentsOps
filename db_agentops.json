@@ -2128,6 +2128,22 @@
   ],
   "activityLogs": [
     {
+      "id": "log-1785929636812-80549",
+      "employeeId": "emp-1785919673448",
+      "employeeName": "Sanjay Krishna",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-08-05T11:33:56.813532Z"
+    },
+    {
+      "id": "log-1785928223086-25358",
+      "employeeId": "admin-1",
+      "employeeName": "G Venkat (HR Lead)",
+      "action": "User Sign-In",
+      "details": "Successful authentication via credentials.",
+      "timestamp": "2026-08-05T11:10:23.087353Z"
+    },
+    {
       "id": "log-1785920117796-50666",
       "employeeId": "admin-1",
       "employeeName": "Admin Olivia Vance",
