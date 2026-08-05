@@ -63,8 +63,19 @@ export default function Login({ onLoginSuccess, initialError }: LoginProps) {
         const payload = await res.json();
         onLoginSuccess(payload.user, payload.token);
       } else {
-        const err = await res.json();
-        setErrorStatus(err.detail || err.error || "Incorrect email or session password.");
+        let errorMsg = "Incorrect email or session password.";
+        try {
+          const contentType = res.headers.get("content-type");
+          if (contentType && contentType.includes("application/json")) {
+            const err = await res.json();
+            errorMsg = err.detail || err.error || errorMsg;
+          } else {
+            errorMsg = `Backend API endpoint not found (${res.status} ${res.statusText}). Check server proxy & deployment routes.`;
+          }
+        } catch {
+          errorMsg = `Authentication error (${res.status}).`;
+        }
+        setErrorStatus(errorMsg);
       }
     } catch (e) {
       setErrorStatus("Auth authentication server unavailable. Ensure Express server is active.");

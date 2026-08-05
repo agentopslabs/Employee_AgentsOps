@@ -1,0 +1,16 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+# API Route Proxy / Redirect Rules
+# Replace target URL below if your Python/Node backend is hosted on Render, Railway, or Vercel
+# [[redirects]]
+#   from = "/api/*"
+#   to = "https://your-agentops-backend.onrender.com/api/:splat"
+#   status = 200
+
+# Single Page Application (SPA) Fallback
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
