@@ -40,12 +40,10 @@ import {
 } from "./types";
 
 export default function App() {
-  // Authentication state - require explicit sign-in on fresh session entries
-  const [authToken, setAuthToken] = useState<string | null>(() => {
-    return sessionStorage.getItem("agentops_jwt") || localStorage.getItem("agentops_jwt");
-  });
+  // Authentication state - Always prompt for login credentials first on portal entry
+  const [authToken, setAuthToken] = useState<string | null>(null);
   const [currentUser, setCurrentUser] = useState<User | null>(null);
-  const [checkingAuth, setCheckingAuth] = useState(true);
+  const [checkingAuth, setCheckingAuth] = useState(false);
   const [authError, setAuthError] = useState<string | null>(null);
 
   // Secure Password Reset state parsed from email link redirection
@@ -53,9 +51,7 @@ export default function App() {
   const [resetEmailFromUrl, setResetEmailFromUrl] = useState<string | null>(null);
 
   // Active Tab/Navigation State
-  const [activeTab, setActiveTab] = useState<string>(() => {
-    return sessionStorage.getItem("agentops_active_tab") || localStorage.getItem("agentops_active_tab") || "admin-analytics";
-  });
+  const [activeTab, setActiveTab] = useState<string>("admin-analytics");
 
   // Auxiliary state updater tracking
   const [refreshTrigger, setRefreshTrigger] = useState(0);
