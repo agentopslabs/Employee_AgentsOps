@@ -40,8 +40,10 @@ import {
 } from "./types";
 
 export default function App() {
-  // Authentication state
-  const [authToken, setAuthToken] = useState<string | null>(localStorage.getItem("agentops_jwt"));
+  // Authentication state - require explicit sign-in on fresh session entries
+  const [authToken, setAuthToken] = useState<string | null>(() => {
+    return sessionStorage.getItem("agentops_jwt") || localStorage.getItem("agentops_jwt");
+  });
   const [currentUser, setCurrentUser] = useState<User | null>(null);
   const [checkingAuth, setCheckingAuth] = useState(true);
   const [authError, setAuthError] = useState<string | null>(null);
@@ -52,7 +54,7 @@ export default function App() {
 
   // Active Tab/Navigation State
   const [activeTab, setActiveTab] = useState<string>(() => {
-    return localStorage.getItem("agentops_active_tab") || "admin-analytics";
+    return sessionStorage.getItem("agentops_active_tab") || localStorage.getItem("agentops_active_tab") || "admin-analytics";
   });
 
   // Auxiliary state updater tracking
@@ -326,16 +328,20 @@ export default function App() {
   }, [assignedTests, currentUser, tests]);
 
   function handleLoginSuccess(user: User, token: string) {
+    sessionStorage.setItem("agentops_jwt", token);
     localStorage.setItem("agentops_jwt", token);
     setAuthToken(token);
     setCurrentUser(user);
     setAuthError(null);
     const defaultTab = user.role === UserRole.ADMIN ? "admin-analytics" : "employee-dashboard";
     setActiveTab(defaultTab);
+    sessionStorage.setItem("agentops_active_tab", defaultTab);
     localStorage.setItem("agentops_active_tab", defaultTab);
   }
 
   function handleLogout(errorMessage?: string) {
+    sessionStorage.removeItem("agentops_jwt");
+    sessionStorage.removeItem("agentops_active_tab");
     localStorage.removeItem("agentops_jwt");
     localStorage.removeItem("agentops_active_tab");
     

@@ -365,14 +365,24 @@
       "fullName": "Sanjay Krishna",
       "email": "ksanjaykrishna469@gmail.com",
       "mobile": "6300590520",
-      "gender": "",
-      "highestQualification": "",
-      "collegeName": "",
-      "yearOfPassing": "",
-      "technicalSkills": [],
-      "otherSkills": [],
-      "status": "not_started",
-      "updatedAt": "2026-08-05T08:47:53.455397Z"
+      "gender": "Male",
+      "highestQualification": "Btech",
+      "collegeName": "BEC",
+      "yearOfPassing": "2026",
+      "technicalSkills": [
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
+      "otherSkills": [
+        "1 year at AgentOps Labs"
+      ],
+      "status": "submitted",
+      "updatedAt": "2026-08-05T11:47:10.948Z",
+      "percentageOrCgpa": "7.0",
+      "googleDriveLink": "",
+      "submittedDocs": [],
+      "submittedAt": "2026-08-05T11:47:10.948Z"
     }
   ],
   "documents": [],
@@ -1154,6 +1164,21 @@
       "completedAt": "2026-08-05T05:42:05.508155Z",
       "assignedAt": "2026-08-05T05:41:50.642558Z",
       "isDefaultOnboardingTest": true
+    },
+    {
+      "id": "at-emp-1785919673448-test-1781256865335",
+      "testId": "test-1781256865335",
+      "testName": "test",
+      "employeeId": "emp-1785919673448",
+      "status": "not_started",
+      "totalQuestions": 8,
+      "passingMarks": 70,
+      "isDefaultOnboardingTest": true,
+      "score": null,
+      "passed": null,
+      "remainingTime": 900,
+      "startedAt": null,
+      "completedAt": null
     }
   ],
   "checklists": [
@@ -2042,8 +2067,8 @@
       "employeeId": "emp-1785919673448",
       "category": "application",
       "text": "Application Submitted",
-      "isCompleted": false,
-      "updatedAt": "2026-08-05T08:47:53.456354Z"
+      "isCompleted": true,
+      "updatedAt": "2026-08-05T11:47:10.948Z"
     },
     {
       "id": "chk-1785919673456-1",
@@ -5727,8 +5752,5 @@
       "remarks": "you joined today only why you asking leave for tomorrow i dont accept your leave",
       "reviewedAt": "2026-08-04T10:56:30.448359Z"
     }
-  ],
-  "settings": {
-    "defaultTestId": "test-1781256865335"
-  }
+  ]
 }
