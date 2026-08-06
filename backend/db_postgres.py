@@ -15,8 +15,8 @@ except ImportError:
     logger.warning("psycopg2-binary package not installed. PostgreSQL integration disabled.")
 
 def get_postgres_connection_string() -> str:
-    """Resolve PostgreSQL connection string from environment variables."""
-    db_url = os.environ.get("DATABASE_URL") or os.environ.get("POSTGRES_URL")
+    """Resolve PostgreSQL/Supabase connection string from environment variables."""
+    db_url = os.environ.get("SUPABASE_DB_URL") or os.environ.get("DATABASE_URL") or os.environ.get("POSTGRES_URL")
     if db_url:
         return db_url
 

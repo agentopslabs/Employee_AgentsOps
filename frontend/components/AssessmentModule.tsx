@@ -137,33 +137,20 @@ export default function AssessmentModule({
   }, []);
 
   // Integrity Check: Auto-submit on tab switch or browser focus loss
-  useEffect(() => {
-    async function handleAutoSubmitCheating() {
-      if (isSubmittingRef.current || submitSuccess) return;
-      console.log("[Integrity Check] Tab switched or focus lost. Submitting exam automatically...");
-      await handleSubmitExam();
-    }
+  const hasEnteredFullscreenRef = useRef(false);
+  const violationReasonRef = useRef<string | null>(null);
+  const [violationReason, setViolationReason] = useState<string | null>(null);
 
-    function onVisibilityChange() {
-      if (document.visibilityState === "hidden") {
-        handleAutoSubmitCheating();
-      }
-    }
+  // Auto-submit exam immediately when a security or proctoring policy violation is detected
+  async function handleAutoSubmitCheating(reason: string) {
+    if (isSubmittingRef.current || submitSuccess) return;
+    console.warn(`[Proctoring Integrity Violation] ${reason}`);
+    violationReasonRef.current = reason;
+    setViolationReason(reason);
+    await handleSubmitExam(answersRef.current, reason);
+  }
 
-    function onWindowBlur() {
-      handleAutoSubmitCheating();
-    }
-
-    document.addEventListener("visibilitychange", onVisibilityChange);
-    window.addEventListener("blur", onWindowBlur);
-
-    return () => {
-      document.removeEventListener("visibilitychange", onVisibilityChange);
-      window.removeEventListener("blur", onWindowBlur);
-    };
-  }, [submitSuccess]);
-
-  // Request browser Full screen or overlay simulator
+  // Request browser Full screen
   function toggleDisplayFullScreen() {
     if (!isFullScreen) {
       if (containerRef.current?.requestFullscreen) {
@@ -172,6 +159,7 @@ export default function AssessmentModule({
         document.documentElement.requestFullscreen().catch(() => {});
       }
       setIsFullScreen(true);
+      hasEnteredFullscreenRef.current = true;
     } else {
       if (document.exitFullscreen) {
         document.exitFullscreen().catch(() => {});
@@ -180,14 +168,20 @@ export default function AssessmentModule({
     }
   }
 
-  // Automatically request fullscreen on mount and exit fullscreen on unmount
+  // Request fullscreen on mount
   useEffect(() => {
     if (!document.fullscreenElement) {
       if (document.documentElement.requestFullscreen) {
-        document.documentElement.requestFullscreen().catch(() => {});
+        document.documentElement.requestFullscreen().then(() => {
+          hasEnteredFullscreenRef.current = true;
+        }).catch(() => {});
       } else if (containerRef.current?.requestFullscreen) {
-        containerRef.current.requestFullscreen().catch(() => {});
+        containerRef.current.requestFullscreen().then(() => {
+          hasEnteredFullscreenRef.current = true;
+        }).catch(() => {});
       }
+    } else {
+      hasEnteredFullscreenRef.current = true;
     }
 
     return () => {
@@ -197,15 +191,81 @@ export default function AssessmentModule({
     };
   }, []);
 
-  // Monitor Esc key full screen exits
+  // Monitor Fullscreen Exits (Full Screen -> Small Screen / Esc key)
   useEffect(() => {
     function onFullScreenChange() {
-      setIsFullScreen(!!document.fullscreenElement);
+      const isFull = !!(document.fullscreenElement || (document as any).webkitFullscreenElement || (document as any).mozFullScreenElement);
+      setIsFullScreen(isFull);
+
+      if (isFull) {
+        hasEnteredFullscreenRef.current = true;
+      } else if (hasEnteredFullscreenRef.current && !isFull && !submitSuccess && !isSubmittingRef.current) {
+        // Exited full screen! Auto submit test immediately!
+        handleAutoSubmitCheating("Fullscreen mode exited (Auto-submitted due to proctoring policy violation)");
+      }
     }
+
     document.addEventListener("fullscreenchange", onFullScreenChange);
-    onFullScreenChange(); // Sync initial state
-    return () => document.removeEventListener("fullscreenchange", onFullScreenChange);
-  }, []);
+    document.addEventListener("webkitfullscreenchange", onFullScreenChange);
+    document.addEventListener("mozfullscreenchange", onFullScreenChange);
+    document.addEventListener("MSFullscreenChange", onFullScreenChange);
+
+    return () => {
+      document.removeEventListener("fullscreenchange", onFullScreenChange);
+      document.removeEventListener("webkitfullscreenchange", onFullScreenChange);
+      document.removeEventListener("mozfullscreenchange", onFullScreenChange);
+      document.removeEventListener("MSFullscreenChange", onFullScreenChange);
+    };
+  }, [submitSuccess]);
+
+  // Monitor Tab Switching, Window Blur, and Screenshot Keyboard Shortcuts
+  useEffect(() => {
+    function onVisibilityChange() {
+      if (document.visibilityState === "hidden" && !submitSuccess && !isSubmittingRef.current) {
+        handleAutoSubmitCheating("Tab switched / browser window hidden (Auto-submitted due to proctoring policy violation)");
+      }
+    }
+
+    function onWindowBlur() {
+      if (!submitSuccess && !isSubmittingRef.current) {
+        handleAutoSubmitCheating("Window lost focus / screenshot tool active (Auto-submitted due to proctoring policy violation)");
+      }
+    }
+
+    function onKeyDown(e: KeyboardEvent) {
+      const isPrtScn = e.key === "PrintScreen" || e.code === "PrintScreen";
+      const isWinShiftS = (e.key === "S" || e.key === "s" || e.code === "KeyS") && (e.shiftKey && (e.metaKey || e.ctrlKey));
+      const isDevTools = (e.key === "F12") || ((e.ctrlKey || e.metaKey) && e.shiftKey && (e.key === "I" || e.key === "i" || e.key === "J" || e.key === "j" || e.key === "C" || e.key === "c"));
+
+      if (isPrtScn || isWinShiftS || isDevTools) {
+        e.preventDefault();
+        e.stopPropagation();
+        const reason = isPrtScn || isWinShiftS
+          ? "Screenshot attempt detected (Auto-submitted due to proctoring policy violation)"
+          : "Developer tools shortcut detected (Auto-submitted due to proctoring policy violation)";
+        handleAutoSubmitCheating(reason);
+      }
+    }
+
+    function onKeyUp(e: KeyboardEvent) {
+      if (e.key === "PrintScreen" || e.code === "PrintScreen") {
+        e.preventDefault();
+        handleAutoSubmitCheating("Screenshot PrintScreen key pressed (Auto-submitted due to proctoring policy violation)");
+      }
+    }
+
+    document.addEventListener("visibilitychange", onVisibilityChange);
+    window.addEventListener("blur", onWindowBlur);
+    window.addEventListener("keydown", onKeyDown, true);
+    window.addEventListener("keyup", onKeyUp, true);
+
+    return () => {
+      document.removeEventListener("visibilitychange", onVisibilityChange);
+      window.removeEventListener("blur", onWindowBlur);
+      window.removeEventListener("keydown", onKeyDown, true);
+      window.removeEventListener("keyup", onKeyUp, true);
+    };
+  }, [submitSuccess]);
 
   // Autosave answers payload to API
   async function handleAutosaveState() {
@@ -258,21 +318,29 @@ export default function AssessmentModule({
   }
 
   // Submit test
-  async function handleSubmitExam(answersOverride?: Record<string, number[]>) {
+  async function handleSubmitExam(answersOverride?: Record<string, number[]>, reason?: string) {
     isSubmittingRef.current = true;
     setSavingState(true);
     setSubmitError("");
     const answersToSend = answersOverride || answersRef.current || selectedAnswers;
+    const finalReason = reason || violationReasonRef.current || violationReason;
+
     try {
       const res = await fetch(`/api/assigned-tests/${testRecord.id}/submit`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ answers: answersToSend }),
+        body: JSON.stringify({
+          answers: answersToSend,
+          violationReason: finalReason
+        }),
         keepalive: true
       });
 
       if (res.ok) {
         const payload = await res.json();
+        if (finalReason) {
+          payload.violationReason = finalReason;
+        }
         setSubmitSuccess(payload);
       } else {
         isSubmittingRef.current = false;
@@ -394,12 +462,12 @@ export default function AssessmentModule({
         </div>
       )}
 
-      {/* Warning layout simulation about full screen */}
-      {!isFullScreen && !submitSuccess && (
-        <div className="mb-6 p-3 bg-indigo-50 border border-indigo-100 text-indigo-750 text-[10px] rounded-lg text-left flex items-center gap-2.5 leading-snug">
-          <AlertTriangle className="h-4 w-4 text-indigo-600 flex-shrink-0" />
-          <p className="text-indigo-950 font-medium">
-            🛡 Candidate Notice: We recommend toggling <span className="font-extrabold text-indigo-600 cursor-pointer underline" onClick={toggleDisplayFullScreen}>FULL SCREEN MODE [Fullscreen]</span> to preserve integrity checks of the assessment layout and eliminate distracting browser notifications.
+      {/* Proctoring notice banner */}
+      {!submitSuccess && (
+        <div className="mb-6 p-3 bg-amber-50 border border-amber-200 text-amber-900 text-[11px] rounded-xl text-left flex items-center gap-2.5 leading-snug shadow-xs">
+          <AlertTriangle className="h-4.5 w-4.5 text-amber-600 flex-shrink-0 animate-pulse" />
+          <p className="font-semibold">
+            <span className="font-black text-amber-950 uppercase tracking-wide">Proctoring Active:</span> Exiting Fullscreen mode, switching tabs, capturing screenshots, or losing window focus will <span className="font-extrabold text-rose-700 underline">AUTO-SUBMIT</span> your assessment immediately! <span className="font-bold text-indigo-600 cursor-pointer underline ml-1" onClick={toggleDisplayFullScreen}>[Toggle Fullscreen]</span>
           </p>
         </div>
       )}
@@ -424,6 +492,13 @@ export default function AssessmentModule({
                 </div>
                 <h3 className="text-lg font-black text-slate-800">ASSESSMENT FAILED</h3>
                 <p className="text-slate-600 mt-1 max-w-xs font-semibold">Your grade fell below the minimum score threshold. Retaking this assessment is not permitted.</p>
+              </div>
+            )}
+
+            {submitSuccess.violationReason && (
+              <div className="p-3 bg-rose-50 border border-rose-200 text-rose-800 text-[11px] font-bold rounded-xl text-left flex items-center gap-2">
+                <AlertTriangle className="h-4 w-4 text-rose-600 flex-shrink-0 animate-bounce" />
+                <span>Auto-Submitted: {submitSuccess.violationReason}</span>
               </div>
             )}
 

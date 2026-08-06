@@ -1170,15 +1170,16 @@
       "testId": "test-1781256865335",
       "testName": "test",
       "employeeId": "emp-1785919673448",
-      "status": "not_started",
+      "status": "in_progress",
       "totalQuestions": 8,
       "passingMarks": 70,
       "isDefaultOnboardingTest": true,
       "score": null,
       "passed": null,
       "remainingTime": 900,
-      "startedAt": null,
-      "completedAt": null
+      "startedAt": "2026-08-06T09:17:47.167280Z",
+      "completedAt": null,
+      "answers": {}
     }
   ],
   "checklists": [
@@ -2152,6 +2153,14 @@
     }
   ],
   "activityLogs": [
+    {
+      "id": "log-1786007871330-84150",
+      "employeeId": "emp-1785919673448",
+      "employeeName": "Sanjay Krishna",
+      "action": "Exam Commenced",
+      "details": "Began taking quiz assignment: \"test\"",
+      "timestamp": "2026-08-06T09:17:51.330049Z"
+    },
     {
       "id": "log-1785929636812-80549",
       "employeeId": "emp-1785919673448",
